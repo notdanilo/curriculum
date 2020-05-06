@@ -1,0 +1,13 @@
+{
+  "name": "finances-core",
+  "collaborators": [
+    "Danilo Guanabara <danguafer@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "finances_core_bg.wasm",
+    "finances_core.js"
+  ],
+  "module": "finances_core.js",
+  "sideEffects": "false"
+}
