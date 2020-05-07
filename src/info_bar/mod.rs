@@ -8,8 +8,8 @@ pub struct InfoBar {
 
 impl WebView for InfoBar {
     fn new_view(attributes:NamedNodeMap) -> Self {
-        let black = attributes.get_named_item("black").unwrap().value();
-        let white = attributes.get_named_item("white").unwrap().value();
+        let black = attributes.get_named_item("black").map(|v| v.value()).unwrap_or("".into());
+        let white = attributes.get_named_item("white").map(|v| v.value()).unwrap_or("".into());
         Self {black,white}
     }
 }

@@ -30,11 +30,6 @@
         }
     </style>
     <div class="curriculum">
-        <v-element path="/components/v-contact"></v-element>
-        <v-element path="/components/v-infobar"></v-element>
-        <v-element path="/components/v-section"></v-element>
-        <v-element path="/components/v-experience"></v-element>
-        <v-element path="/components/v-knowledge"></v-element>
         <v-contact :json="JSON.stringify(contact)"></v-contact>
         <v-infobar class="academic" :black="education.title" :white="education.institute"></v-infobar>
         <v-section name="Job Experiences">
