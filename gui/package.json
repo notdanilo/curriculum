@@ -1,13 +1,13 @@
 {
-  "name": "finances-core",
+  "name": "v-curriculum",
   "collaborators": [
     "Danilo Guanabara <danguafer@gmail.com>"
   ],
   "version": "0.1.0",
   "files": [
-    "finances_core_bg.wasm",
-    "finances_core.js"
+    "v_curriculum_bg.wasm",
+    "v_curriculum.js"
   ],
-  "module": "finances_core.js",
+  "module": "v_curriculum.js",
   "sideEffects": "false"
 }
