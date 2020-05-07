@@ -1,15 +1,16 @@
 use crate::prelude::*;
 
-use crate::role::Role;
-
-#[derive(Serialize, Deserialize, Debug, Default)]
-pub struct Experience {
-    company     : String,
-    description : String,
-    role        : Role
+#[derive(Serialize,Deserialize,Debug,Default)]
+pub struct Contact {
+    pub name     : String,
+    pub title    : String,
+    pub address  : String,
+    pub phone    : String,
+    pub email    : String,
+    pub birthday : String
 }
 
-impl WebView for Experience {
+impl WebView for Contact {
     fn new_view(attributes:NamedNodeMap) -> Self {
         let attribute = attributes.get_named_item("json");
         if let Some(attribute) = attribute {
@@ -25,5 +26,5 @@ impl WebView for Experience {
     }
 }
 
-crate::webview!(Experience);
-crate::template!(Experience);
+webview!(Contact);
+template!(Contact);

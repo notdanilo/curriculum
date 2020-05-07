@@ -7,9 +7,9 @@ pub struct Education {
 }
 
 impl WebView for Education {
-    fn new_view(attributes:NamedNodeMap) -> Self {
+    fn new_view(_attributes:NamedNodeMap) -> Self {
         Default::default()
     }
 }
 
-crate::webview!(Education);
+webview!(Education);

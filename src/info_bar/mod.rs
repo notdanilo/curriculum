@@ -14,5 +14,5 @@ impl WebView for InfoBar {
     }
 }
 
-crate::webview!(InfoBar);
-crate::template!(InfoBar);
+webview!(InfoBar);
+template!(InfoBar);

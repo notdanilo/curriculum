@@ -12,5 +12,5 @@ impl WebView for Section {
     }
 }
 
-crate::webview!(Section);
-crate::template!(Section);
+webview!(Section);
+template!(Section);

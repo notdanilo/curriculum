@@ -17,7 +17,7 @@ To build the web assembly code, run:
 
 To initialize a web server at port 80, run:
 ```bash
-sudo ./scripts/server.py
+curriculum/gui$ sudo ../automation/server.py
 ```
 
 ## JSON Format

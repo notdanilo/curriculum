@@ -1,18 +1,12 @@
 use crate::prelude::*;
-use crate::webview;
-use crate::template;
 
-#[derive(Serialize,Deserialize,Debug,Default)]
-pub struct Contact {
-    pub name     : String,
-    pub title    : String,
-    pub address  : String,
-    pub phone    : String,
-    pub email    : String,
-    pub birthday : String
+#[derive(Serialize, Deserialize, Debug, Default)]
+pub struct Knowledge {
+    name : String,
+    info : Vec<String>
 }
 
-impl WebView for Contact {
+impl WebView for Knowledge {
     fn new_view(attributes:NamedNodeMap) -> Self {
         let attribute = attributes.get_named_item("json");
         if let Some(attribute) = attribute {
@@ -28,5 +22,5 @@ impl WebView for Contact {
     }
 }
 
-webview!(Contact);
-template!(Contact);
+webview!(Knowledge);
+template!(Knowledge);

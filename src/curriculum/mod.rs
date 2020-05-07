@@ -26,5 +26,5 @@ impl WebView for Curriculum {
     }
 }
 
-crate::webview!(Curriculum);
-crate::template!(Curriculum);
+webview!(Curriculum);
+template!(Curriculum);
