@@ -32,18 +32,18 @@
     <div class="curriculum">
         <v-contact :json="JSON.stringify(contact)"></v-contact>
         <v-infobar class="academic" :black="education.title" :white="education.institute"></v-infobar>
-        <v-section name="Job Experiences">
+        <v-section name="Experiências Profissionais">
             <span slot="slot">
                 <v-experience :key="experience.company" v-for="experience in experiences" :json='JSON.stringify(experience)'></v-experience>
             </span>
         </v-section>
-        <v-section name="Knowledges">
+        <v-section name="Conhecimentos">
             <span slot="slot">
                 <v-knowledge :key="knowledge.name" v-for="knowledge in knowledges" :json="JSON.stringify(knowledge)"></v-knowledge>
             </span>
         </v-section>
         <div class="bottom">
-            <v-section name="Languages">
+            <v-section name="Linguas">
             <span slot="slot">
                 <v-knowledge :key="knowledge.name" v-for="knowledge in languages" :json="JSON.stringify(knowledge)"></v-knowledge>
             </span>
