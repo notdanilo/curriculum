@@ -6,8 +6,8 @@ pub struct Knowledge {
     info : Vec<String>
 }
 
-impl WebView for Knowledge {
-    fn new_view(attributes:NamedNodeMap) -> Self {
+impl Knowledge {
+    fn create_view(attributes:NamedNodeMap) -> Self {
         let attribute = attributes.get_named_item("json");
         if let Some(attribute) = attribute {
             let json = attribute.value();
@@ -19,6 +19,12 @@ impl WebView for Knowledge {
         } else {
             Default::default()
         }
+    }
+}
+
+impl WebView for Knowledge {
+    fn get_data(&self) -> String {
+        json::to_string(&self).unwrap()
     }
 }
 

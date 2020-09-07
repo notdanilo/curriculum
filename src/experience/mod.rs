@@ -9,8 +9,8 @@ pub struct Experience {
     role        : Role
 }
 
-impl WebView for Experience {
-    fn new_view(attributes:NamedNodeMap) -> Self {
+impl Experience {
+    fn create_view(attributes:NamedNodeMap) -> Self {
         let attribute = attributes.get_named_item("json");
         if let Some(attribute) = attribute {
             let json = attribute.value();
@@ -22,6 +22,12 @@ impl WebView for Experience {
         } else {
             Default::default()
         }
+    }
+}
+
+impl WebView for Experience {
+    fn get_data(&self) -> String {
+        json::to_string(&self).unwrap()
     }
 }
 

@@ -15,14 +15,20 @@ pub struct Curriculum {
 }
 
 
-impl WebView for Curriculum {
-    fn new_view(_attributes:NamedNodeMap) -> Self {
+impl Curriculum {
+    fn create_view(_attributes:NamedNodeMap) -> Self {
         let json     = include_str!("curriculum.json");
         if let Ok(object) = serde_json::from_str(&json) {
             object
         } else {
             Default::default()
         }
+    }
+}
+
+impl WebView for Curriculum {
+    fn get_data(&self) -> String {
+        json::to_string(&self).unwrap()
     }
 }
 

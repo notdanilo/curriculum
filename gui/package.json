@@ -9,5 +9,5 @@
     "v_curriculum.js"
   ],
   "module": "v_curriculum.js",
-  "sideEffects": "false"
+  "sideEffects": false
 }

@@ -6,9 +6,15 @@ pub struct Education {
     institute : String
 }
 
-impl WebView for Education {
-    fn new_view(_attributes:NamedNodeMap) -> Self {
+impl Education {
+    fn create_view(_attributes:NamedNodeMap) -> Self {
         Default::default()
+    }
+}
+
+impl WebView for Education {
+    fn get_data(&self) -> String {
+        json::to_string(&self).unwrap()
     }
 }
 
