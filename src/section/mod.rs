@@ -5,18 +5,12 @@ pub struct Section {
     name : String
 }
 
-impl Section {
-    fn create_view(attributes:NamedNodeMap) -> Self {
+impl WebComponent for Section {
+    fn create_component(attributes:NamedNodeMap) -> Self {
         let name = attributes.get_named_item("name").unwrap().value().into();
         Self {name}
     }
 }
 
-impl WebView for Section {
-    fn get_data(&self) -> String {
-        json::to_string(&self).unwrap()
-    }
-}
-
-webview!(Section);
+web_component!(Section);
 template!(Section);

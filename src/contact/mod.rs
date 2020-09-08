@@ -10,8 +10,8 @@ pub struct Contact {
     pub birthday : String
 }
 
-impl Contact {
-    fn create_view(attributes:NamedNodeMap) -> Self {
+impl WebComponent for Contact {
+    fn create_component(attributes:NamedNodeMap) -> Self {
         let attribute = attributes.get_named_item("json");
         if let Some(attribute) = attribute {
             let json = attribute.value();
@@ -26,11 +26,5 @@ impl Contact {
     }
 }
 
-impl WebView for Contact {
-    fn get_data(&self) -> String {
-        json::to_string(&self).unwrap()
-    }
-}
-
-webview!(Contact);
+web_component!(Contact);
 template!(Contact);

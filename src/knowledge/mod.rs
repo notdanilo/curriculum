@@ -6,8 +6,8 @@ pub struct Knowledge {
     info : Vec<String>
 }
 
-impl Knowledge {
-    fn create_view(attributes:NamedNodeMap) -> Self {
+impl WebComponent for Knowledge {
+    fn create_component(attributes:NamedNodeMap) -> Self {
         let attribute = attributes.get_named_item("json");
         if let Some(attribute) = attribute {
             let json = attribute.value();
@@ -22,11 +22,5 @@ impl Knowledge {
     }
 }
 
-impl WebView for Knowledge {
-    fn get_data(&self) -> String {
-        json::to_string(&self).unwrap()
-    }
-}
-
-webview!(Knowledge);
+web_component!(Knowledge);
 template!(Knowledge);

@@ -6,19 +6,13 @@ pub struct InfoBar {
     white : String
 }
 
-impl InfoBar {
-    fn create_view(attributes:NamedNodeMap) -> Self {
+impl WebComponent for InfoBar {
+    fn create_component(attributes:NamedNodeMap) -> Self {
         let black = attributes.get_named_item("black").map(|v| v.value()).unwrap_or("".into());
         let white = attributes.get_named_item("white").map(|v| v.value()).unwrap_or("".into());
         Self {black,white}
     }
 }
 
-impl WebView for InfoBar {
-    fn get_data(&self) -> String {
-        json::to_string(&self).unwrap()
-    }
-}
-
-webview!(InfoBar);
+web_component!(InfoBar);
 template!(InfoBar);

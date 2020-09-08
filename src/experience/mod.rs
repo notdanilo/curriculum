@@ -10,7 +10,10 @@ pub struct Experience {
 }
 
 impl Experience {
-    fn create_view(attributes:NamedNodeMap) -> Self {
+}
+
+impl WebComponent for Experience {
+    fn create_component(attributes:NamedNodeMap) -> Self {
         let attribute = attributes.get_named_item("json");
         if let Some(attribute) = attribute {
             let json = attribute.value();
@@ -25,11 +28,5 @@ impl Experience {
     }
 }
 
-impl WebView for Experience {
-    fn get_data(&self) -> String {
-        json::to_string(&self).unwrap()
-    }
-}
-
-webview!(Experience);
+web_component!(Experience);
 template!(Experience);
