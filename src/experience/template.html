@@ -35,7 +35,7 @@
         }
     </style>
     <div class="experience">
-        <v-infobar :black="company" :white="description"></v-infobar>
+        <web-infobar :black="company" :white="description"></web-infobar>
         <div class="period">{{ role.period }}. {{ role.location }}</div>
         <div class="role">{{ role.name }}</div>
         <div v-for="line in role.activities.split('\n')" v-bind:key="line">

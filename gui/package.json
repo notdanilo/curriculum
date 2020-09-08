@@ -1,13 +1,13 @@
 {
-  "name": "v-curriculum",
+  "name": "web-curriculum",
   "collaborators": [
     "Danilo Guanabara <danguafer@gmail.com>"
   ],
   "version": "0.1.0",
   "files": [
-    "v_curriculum_bg.wasm",
-    "v_curriculum.js"
+    "web_curriculum_bg.wasm",
+    "web_curriculum.js"
   ],
-  "module": "v_curriculum.js",
+  "module": "web_curriculum.js",
   "sideEffects": false
 }

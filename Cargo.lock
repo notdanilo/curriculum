@@ -134,15 +134,6 @@ version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
-name = "v-curriculum"
-version = "0.1.0"
-dependencies = [
- "serde 1.0.104 (registry+https://github.com/rust-lang/crates.io-index)",
- "web-component 0.1.0",
- "web-sys 0.3.36 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
 name = "wasm-bindgen"
 version = "0.2.59"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -200,6 +191,15 @@ dependencies = [
  "serde 1.0.104 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_json 1.0.48 (registry+https://github.com/rust-lang/crates.io-index)",
  "wasm-bindgen 0.2.59 (registry+https://github.com/rust-lang/crates.io-index)",
+ "web-sys 0.3.36 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "web-curriculum"
+version = "0.1.0"
+dependencies = [
+ "serde 1.0.104 (registry+https://github.com/rust-lang/crates.io-index)",
+ "web-component 0.1.0",
  "web-sys 0.3.36 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
