@@ -13,6 +13,17 @@
   },
   "experiences": [
     {
+      "company": "Marshmellow Laser Feast",
+      "description": "Coletivo de Arte Experiencial",
+      "role": {
+        "name": "P&D Simulaçao de Fluidos",
+        "period": "Setembro 2020 - Presente",
+        "location": "London, ENG.",
+        "keywords": ["Unreal Engine 4", "Niagara", "Compute Shader" ],
+        "activities": "Pesquisa e desenvolvimento de um simulador de fluidos SPH em tempo real."
+      }
+    },
+    {
       "company": "New Byte Order",
       "description": "Linguagem de programação híbrida visual-textual",
       "role": {
