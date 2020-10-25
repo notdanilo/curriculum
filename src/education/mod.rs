@@ -1,6 +1,6 @@
 use crate::prelude::*;
 
-#[derive(Serialize, Deserialize, Debug, Default)]
+#[derive(WebComponent, Serialize, Deserialize, Debug, Default)]
 pub struct Education {
     title     : String,
     institute : String
@@ -11,5 +11,3 @@ impl WebComponent for Education {
         Default::default()
     }
 }
-
-web_component!(Education);

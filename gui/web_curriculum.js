@@ -49,321 +49,9 @@ function addHeapObject(obj) {
 * @param {NamedNodeMap} attributes
 * @returns {number}
 */
-export function components_web_experience_create(attributes) {
-    var ret = wasm.components_web_experience_create(addHeapObject(attributes));
-    return ret >>> 0;
-}
-
-let cachegetInt32Memory0 = null;
-function getInt32Memory0() {
-    if (cachegetInt32Memory0 === null || cachegetInt32Memory0.buffer !== wasm.memory.buffer) {
-        cachegetInt32Memory0 = new Int32Array(wasm.memory.buffer);
-    }
-    return cachegetInt32Memory0;
-}
-/**
-* @param {number} object
-* @returns {string}
-*/
-export function components_web_experience_get_data(object) {
-    try {
-        wasm.components_web_experience_get_data(8, object);
-        var r0 = getInt32Memory0()[8 / 4 + 0];
-        var r1 = getInt32Memory0()[8 / 4 + 1];
-        return getStringFromWasm0(r0, r1);
-    } finally {
-        wasm.__wbindgen_free(r0, r1);
-    }
-}
-
-/**
-* @param {number} object
-* @param {ShadowRoot} shadow_root
-*/
-export function components_web_experience_on_loaded(object, shadow_root) {
-    wasm.components_web_experience_on_loaded(object, addHeapObject(shadow_root));
-}
-
-/**
-* @returns {string}
-*/
-export function components_web_experience_template() {
-    try {
-        wasm.components_web_experience_template(8);
-        var r0 = getInt32Memory0()[8 / 4 + 0];
-        var r1 = getInt32Memory0()[8 / 4 + 1];
-        return getStringFromWasm0(r0, r1);
-    } finally {
-        wasm.__wbindgen_free(r0, r1);
-    }
-}
-
-/**
-* @param {NamedNodeMap} attributes
-* @returns {number}
-*/
 export function components_web_knowledge_create(attributes) {
     var ret = wasm.components_web_knowledge_create(addHeapObject(attributes));
     return ret >>> 0;
-}
-
-/**
-* @param {number} object
-* @returns {string}
-*/
-export function components_web_knowledge_get_data(object) {
-    try {
-        wasm.components_web_knowledge_get_data(8, object);
-        var r0 = getInt32Memory0()[8 / 4 + 0];
-        var r1 = getInt32Memory0()[8 / 4 + 1];
-        return getStringFromWasm0(r0, r1);
-    } finally {
-        wasm.__wbindgen_free(r0, r1);
-    }
-}
-
-/**
-* @param {number} object
-* @param {ShadowRoot} shadow_root
-*/
-export function components_web_knowledge_on_loaded(object, shadow_root) {
-    wasm.components_web_knowledge_on_loaded(object, addHeapObject(shadow_root));
-}
-
-/**
-* @returns {string}
-*/
-export function components_web_knowledge_template() {
-    try {
-        wasm.components_web_knowledge_template(8);
-        var r0 = getInt32Memory0()[8 / 4 + 0];
-        var r1 = getInt32Memory0()[8 / 4 + 1];
-        return getStringFromWasm0(r0, r1);
-    } finally {
-        wasm.__wbindgen_free(r0, r1);
-    }
-}
-
-/**
-* @param {NamedNodeMap} attributes
-* @returns {number}
-*/
-export function components_web_infobar_create(attributes) {
-    var ret = wasm.components_web_infobar_create(addHeapObject(attributes));
-    return ret >>> 0;
-}
-
-/**
-* @param {number} object
-* @returns {string}
-*/
-export function components_web_infobar_get_data(object) {
-    try {
-        wasm.components_web_infobar_get_data(8, object);
-        var r0 = getInt32Memory0()[8 / 4 + 0];
-        var r1 = getInt32Memory0()[8 / 4 + 1];
-        return getStringFromWasm0(r0, r1);
-    } finally {
-        wasm.__wbindgen_free(r0, r1);
-    }
-}
-
-/**
-* @param {number} object
-* @param {ShadowRoot} shadow_root
-*/
-export function components_web_infobar_on_loaded(object, shadow_root) {
-    wasm.components_web_infobar_on_loaded(object, addHeapObject(shadow_root));
-}
-
-/**
-* @returns {string}
-*/
-export function components_web_infobar_template() {
-    try {
-        wasm.components_web_infobar_template(8);
-        var r0 = getInt32Memory0()[8 / 4 + 0];
-        var r1 = getInt32Memory0()[8 / 4 + 1];
-        return getStringFromWasm0(r0, r1);
-    } finally {
-        wasm.__wbindgen_free(r0, r1);
-    }
-}
-
-/**
-* @param {NamedNodeMap} attributes
-* @returns {number}
-*/
-export function components_web_education_create(attributes) {
-    var ret = wasm.components_web_education_create(addHeapObject(attributes));
-    return ret >>> 0;
-}
-
-/**
-* @param {number} object
-* @returns {string}
-*/
-export function components_web_education_get_data(object) {
-    try {
-        wasm.components_web_education_get_data(8, object);
-        var r0 = getInt32Memory0()[8 / 4 + 0];
-        var r1 = getInt32Memory0()[8 / 4 + 1];
-        return getStringFromWasm0(r0, r1);
-    } finally {
-        wasm.__wbindgen_free(r0, r1);
-    }
-}
-
-/**
-* @param {number} object
-* @param {ShadowRoot} shadow_root
-*/
-export function components_web_education_on_loaded(object, shadow_root) {
-    wasm.components_web_education_on_loaded(object, addHeapObject(shadow_root));
-}
-
-/**
-*/
-export function web_component_target_wasm() {
-    wasm.web_component_target_wasm();
-}
-
-/**
-* @param {NamedNodeMap} attributes
-* @returns {number}
-*/
-export function components_web_section_create(attributes) {
-    var ret = wasm.components_web_section_create(addHeapObject(attributes));
-    return ret >>> 0;
-}
-
-/**
-* @param {number} object
-* @returns {string}
-*/
-export function components_web_section_get_data(object) {
-    try {
-        wasm.components_web_section_get_data(8, object);
-        var r0 = getInt32Memory0()[8 / 4 + 0];
-        var r1 = getInt32Memory0()[8 / 4 + 1];
-        return getStringFromWasm0(r0, r1);
-    } finally {
-        wasm.__wbindgen_free(r0, r1);
-    }
-}
-
-/**
-* @param {number} object
-* @param {ShadowRoot} shadow_root
-*/
-export function components_web_section_on_loaded(object, shadow_root) {
-    wasm.components_web_section_on_loaded(object, addHeapObject(shadow_root));
-}
-
-/**
-* @returns {string}
-*/
-export function components_web_section_template() {
-    try {
-        wasm.components_web_section_template(8);
-        var r0 = getInt32Memory0()[8 / 4 + 0];
-        var r1 = getInt32Memory0()[8 / 4 + 1];
-        return getStringFromWasm0(r0, r1);
-    } finally {
-        wasm.__wbindgen_free(r0, r1);
-    }
-}
-
-/**
-* @param {NamedNodeMap} attributes
-* @returns {number}
-*/
-export function components_web_contact_create(attributes) {
-    var ret = wasm.components_web_contact_create(addHeapObject(attributes));
-    return ret >>> 0;
-}
-
-/**
-* @param {number} object
-* @returns {string}
-*/
-export function components_web_contact_get_data(object) {
-    try {
-        wasm.components_web_contact_get_data(8, object);
-        var r0 = getInt32Memory0()[8 / 4 + 0];
-        var r1 = getInt32Memory0()[8 / 4 + 1];
-        return getStringFromWasm0(r0, r1);
-    } finally {
-        wasm.__wbindgen_free(r0, r1);
-    }
-}
-
-/**
-* @param {number} object
-* @param {ShadowRoot} shadow_root
-*/
-export function components_web_contact_on_loaded(object, shadow_root) {
-    wasm.components_web_contact_on_loaded(object, addHeapObject(shadow_root));
-}
-
-/**
-* @returns {string}
-*/
-export function components_web_contact_template() {
-    try {
-        wasm.components_web_contact_template(8);
-        var r0 = getInt32Memory0()[8 / 4 + 0];
-        var r1 = getInt32Memory0()[8 / 4 + 1];
-        return getStringFromWasm0(r0, r1);
-    } finally {
-        wasm.__wbindgen_free(r0, r1);
-    }
-}
-
-/**
-* @param {NamedNodeMap} attributes
-* @returns {number}
-*/
-export function components_web_curriculum_create(attributes) {
-    var ret = wasm.components_web_curriculum_create(addHeapObject(attributes));
-    return ret >>> 0;
-}
-
-/**
-* @param {number} object
-* @returns {string}
-*/
-export function components_web_curriculum_get_data(object) {
-    try {
-        wasm.components_web_curriculum_get_data(8, object);
-        var r0 = getInt32Memory0()[8 / 4 + 0];
-        var r1 = getInt32Memory0()[8 / 4 + 1];
-        return getStringFromWasm0(r0, r1);
-    } finally {
-        wasm.__wbindgen_free(r0, r1);
-    }
-}
-
-/**
-* @param {number} object
-* @param {ShadowRoot} shadow_root
-*/
-export function components_web_curriculum_on_loaded(object, shadow_root) {
-    wasm.components_web_curriculum_on_loaded(object, addHeapObject(shadow_root));
-}
-
-/**
-* @returns {string}
-*/
-export function components_web_curriculum_template() {
-    try {
-        wasm.components_web_curriculum_template(8);
-        var r0 = getInt32Memory0()[8 / 4 + 0];
-        var r1 = getInt32Memory0()[8 / 4 + 1];
-        return getStringFromWasm0(r0, r1);
-    } finally {
-        wasm.__wbindgen_free(r0, r1);
-    }
 }
 
 let WASM_VECTOR_LEN = 0;
@@ -419,6 +107,408 @@ function passStringToWasm0(arg, malloc, realloc) {
 
     WASM_VECTOR_LEN = offset;
     return ptr;
+}
+/**
+* @param {number} object
+* @param {string} name
+* @param {string} value
+*/
+export function components_web_knowledge_update_field(object, name, value) {
+    var ptr0 = passStringToWasm0(name, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    var len0 = WASM_VECTOR_LEN;
+    var ptr1 = passStringToWasm0(value, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    var len1 = WASM_VECTOR_LEN;
+    wasm.components_web_knowledge_update_field(object, ptr0, len0, ptr1, len1);
+}
+
+let cachegetInt32Memory0 = null;
+function getInt32Memory0() {
+    if (cachegetInt32Memory0 === null || cachegetInt32Memory0.buffer !== wasm.memory.buffer) {
+        cachegetInt32Memory0 = new Int32Array(wasm.memory.buffer);
+    }
+    return cachegetInt32Memory0;
+}
+/**
+* @param {number} object
+* @returns {string}
+*/
+export function components_web_knowledge_get_data(object) {
+    try {
+        wasm.components_web_knowledge_get_data(8, object);
+        var r0 = getInt32Memory0()[8 / 4 + 0];
+        var r1 = getInt32Memory0()[8 / 4 + 1];
+        return getStringFromWasm0(r0, r1);
+    } finally {
+        wasm.__wbindgen_free(r0, r1);
+    }
+}
+
+/**
+* @param {number} object
+* @param {ShadowRoot} shadow_root
+*/
+export function components_web_knowledge_on_loaded(object, shadow_root) {
+    wasm.components_web_knowledge_on_loaded(object, addHeapObject(shadow_root));
+}
+
+/**
+* @returns {string}
+*/
+export function components_web_knowledge_template() {
+    try {
+        wasm.components_web_knowledge_template(8);
+        var r0 = getInt32Memory0()[8 / 4 + 0];
+        var r1 = getInt32Memory0()[8 / 4 + 1];
+        return getStringFromWasm0(r0, r1);
+    } finally {
+        wasm.__wbindgen_free(r0, r1);
+    }
+}
+
+/**
+* @param {NamedNodeMap} attributes
+* @returns {number}
+*/
+export function components_web_infobar_create(attributes) {
+    var ret = wasm.components_web_infobar_create(addHeapObject(attributes));
+    return ret >>> 0;
+}
+
+/**
+* @param {number} object
+* @param {string} name
+* @param {string} value
+*/
+export function components_web_infobar_update_field(object, name, value) {
+    var ptr0 = passStringToWasm0(name, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    var len0 = WASM_VECTOR_LEN;
+    var ptr1 = passStringToWasm0(value, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    var len1 = WASM_VECTOR_LEN;
+    wasm.components_web_infobar_update_field(object, ptr0, len0, ptr1, len1);
+}
+
+/**
+* @param {number} object
+* @returns {string}
+*/
+export function components_web_infobar_get_data(object) {
+    try {
+        wasm.components_web_infobar_get_data(8, object);
+        var r0 = getInt32Memory0()[8 / 4 + 0];
+        var r1 = getInt32Memory0()[8 / 4 + 1];
+        return getStringFromWasm0(r0, r1);
+    } finally {
+        wasm.__wbindgen_free(r0, r1);
+    }
+}
+
+/**
+* @param {number} object
+* @param {ShadowRoot} shadow_root
+*/
+export function components_web_infobar_on_loaded(object, shadow_root) {
+    wasm.components_web_infobar_on_loaded(object, addHeapObject(shadow_root));
+}
+
+/**
+* @returns {string}
+*/
+export function components_web_infobar_template() {
+    try {
+        wasm.components_web_infobar_template(8);
+        var r0 = getInt32Memory0()[8 / 4 + 0];
+        var r1 = getInt32Memory0()[8 / 4 + 1];
+        return getStringFromWasm0(r0, r1);
+    } finally {
+        wasm.__wbindgen_free(r0, r1);
+    }
+}
+
+/**
+* @param {NamedNodeMap} attributes
+* @returns {number}
+*/
+export function components_web_education_create(attributes) {
+    var ret = wasm.components_web_education_create(addHeapObject(attributes));
+    return ret >>> 0;
+}
+
+/**
+* @param {number} object
+* @param {string} name
+* @param {string} value
+*/
+export function components_web_education_update_field(object, name, value) {
+    var ptr0 = passStringToWasm0(name, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    var len0 = WASM_VECTOR_LEN;
+    var ptr1 = passStringToWasm0(value, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    var len1 = WASM_VECTOR_LEN;
+    wasm.components_web_education_update_field(object, ptr0, len0, ptr1, len1);
+}
+
+/**
+* @param {number} object
+* @returns {string}
+*/
+export function components_web_education_get_data(object) {
+    try {
+        wasm.components_web_education_get_data(8, object);
+        var r0 = getInt32Memory0()[8 / 4 + 0];
+        var r1 = getInt32Memory0()[8 / 4 + 1];
+        return getStringFromWasm0(r0, r1);
+    } finally {
+        wasm.__wbindgen_free(r0, r1);
+    }
+}
+
+/**
+* @param {number} object
+* @param {ShadowRoot} shadow_root
+*/
+export function components_web_education_on_loaded(object, shadow_root) {
+    wasm.components_web_education_on_loaded(object, addHeapObject(shadow_root));
+}
+
+/**
+* @param {NamedNodeMap} attributes
+* @returns {number}
+*/
+export function components_web_section_create(attributes) {
+    var ret = wasm.components_web_section_create(addHeapObject(attributes));
+    return ret >>> 0;
+}
+
+/**
+* @param {number} object
+* @param {string} name
+* @param {string} value
+*/
+export function components_web_section_update_field(object, name, value) {
+    var ptr0 = passStringToWasm0(name, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    var len0 = WASM_VECTOR_LEN;
+    var ptr1 = passStringToWasm0(value, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    var len1 = WASM_VECTOR_LEN;
+    wasm.components_web_section_update_field(object, ptr0, len0, ptr1, len1);
+}
+
+/**
+* @param {number} object
+* @returns {string}
+*/
+export function components_web_section_get_data(object) {
+    try {
+        wasm.components_web_section_get_data(8, object);
+        var r0 = getInt32Memory0()[8 / 4 + 0];
+        var r1 = getInt32Memory0()[8 / 4 + 1];
+        return getStringFromWasm0(r0, r1);
+    } finally {
+        wasm.__wbindgen_free(r0, r1);
+    }
+}
+
+/**
+* @param {number} object
+* @param {ShadowRoot} shadow_root
+*/
+export function components_web_section_on_loaded(object, shadow_root) {
+    wasm.components_web_section_on_loaded(object, addHeapObject(shadow_root));
+}
+
+/**
+* @returns {string}
+*/
+export function components_web_section_template() {
+    try {
+        wasm.components_web_section_template(8);
+        var r0 = getInt32Memory0()[8 / 4 + 0];
+        var r1 = getInt32Memory0()[8 / 4 + 1];
+        return getStringFromWasm0(r0, r1);
+    } finally {
+        wasm.__wbindgen_free(r0, r1);
+    }
+}
+
+/**
+* @param {NamedNodeMap} attributes
+* @returns {number}
+*/
+export function components_web_contact_create(attributes) {
+    var ret = wasm.components_web_contact_create(addHeapObject(attributes));
+    return ret >>> 0;
+}
+
+/**
+* @param {number} object
+* @param {string} name
+* @param {string} value
+*/
+export function components_web_contact_update_field(object, name, value) {
+    var ptr0 = passStringToWasm0(name, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    var len0 = WASM_VECTOR_LEN;
+    var ptr1 = passStringToWasm0(value, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    var len1 = WASM_VECTOR_LEN;
+    wasm.components_web_contact_update_field(object, ptr0, len0, ptr1, len1);
+}
+
+/**
+* @param {number} object
+* @returns {string}
+*/
+export function components_web_contact_get_data(object) {
+    try {
+        wasm.components_web_contact_get_data(8, object);
+        var r0 = getInt32Memory0()[8 / 4 + 0];
+        var r1 = getInt32Memory0()[8 / 4 + 1];
+        return getStringFromWasm0(r0, r1);
+    } finally {
+        wasm.__wbindgen_free(r0, r1);
+    }
+}
+
+/**
+* @param {number} object
+* @param {ShadowRoot} shadow_root
+*/
+export function components_web_contact_on_loaded(object, shadow_root) {
+    wasm.components_web_contact_on_loaded(object, addHeapObject(shadow_root));
+}
+
+/**
+* @returns {string}
+*/
+export function components_web_contact_template() {
+    try {
+        wasm.components_web_contact_template(8);
+        var r0 = getInt32Memory0()[8 / 4 + 0];
+        var r1 = getInt32Memory0()[8 / 4 + 1];
+        return getStringFromWasm0(r0, r1);
+    } finally {
+        wasm.__wbindgen_free(r0, r1);
+    }
+}
+
+/**
+* @param {NamedNodeMap} attributes
+* @returns {number}
+*/
+export function components_web_curriculum_create(attributes) {
+    var ret = wasm.components_web_curriculum_create(addHeapObject(attributes));
+    return ret >>> 0;
+}
+
+/**
+* @param {number} object
+* @param {string} name
+* @param {string} value
+*/
+export function components_web_curriculum_update_field(object, name, value) {
+    var ptr0 = passStringToWasm0(name, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    var len0 = WASM_VECTOR_LEN;
+    var ptr1 = passStringToWasm0(value, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    var len1 = WASM_VECTOR_LEN;
+    wasm.components_web_curriculum_update_field(object, ptr0, len0, ptr1, len1);
+}
+
+/**
+* @param {number} object
+* @returns {string}
+*/
+export function components_web_curriculum_get_data(object) {
+    try {
+        wasm.components_web_curriculum_get_data(8, object);
+        var r0 = getInt32Memory0()[8 / 4 + 0];
+        var r1 = getInt32Memory0()[8 / 4 + 1];
+        return getStringFromWasm0(r0, r1);
+    } finally {
+        wasm.__wbindgen_free(r0, r1);
+    }
+}
+
+/**
+* @param {number} object
+* @param {ShadowRoot} shadow_root
+*/
+export function components_web_curriculum_on_loaded(object, shadow_root) {
+    wasm.components_web_curriculum_on_loaded(object, addHeapObject(shadow_root));
+}
+
+/**
+* @returns {string}
+*/
+export function components_web_curriculum_template() {
+    try {
+        wasm.components_web_curriculum_template(8);
+        var r0 = getInt32Memory0()[8 / 4 + 0];
+        var r1 = getInt32Memory0()[8 / 4 + 1];
+        return getStringFromWasm0(r0, r1);
+    } finally {
+        wasm.__wbindgen_free(r0, r1);
+    }
+}
+
+/**
+*/
+export function web_component_target_wasm() {
+    wasm.web_component_target_wasm();
+}
+
+/**
+* @param {NamedNodeMap} attributes
+* @returns {number}
+*/
+export function components_web_experience_create(attributes) {
+    var ret = wasm.components_web_experience_create(addHeapObject(attributes));
+    return ret >>> 0;
+}
+
+/**
+* @param {number} object
+* @param {string} name
+* @param {string} value
+*/
+export function components_web_experience_update_field(object, name, value) {
+    var ptr0 = passStringToWasm0(name, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    var len0 = WASM_VECTOR_LEN;
+    var ptr1 = passStringToWasm0(value, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    var len1 = WASM_VECTOR_LEN;
+    wasm.components_web_experience_update_field(object, ptr0, len0, ptr1, len1);
+}
+
+/**
+* @param {number} object
+* @returns {string}
+*/
+export function components_web_experience_get_data(object) {
+    try {
+        wasm.components_web_experience_get_data(8, object);
+        var r0 = getInt32Memory0()[8 / 4 + 0];
+        var r1 = getInt32Memory0()[8 / 4 + 1];
+        return getStringFromWasm0(r0, r1);
+    } finally {
+        wasm.__wbindgen_free(r0, r1);
+    }
+}
+
+/**
+* @param {number} object
+* @param {ShadowRoot} shadow_root
+*/
+export function components_web_experience_on_loaded(object, shadow_root) {
+    wasm.components_web_experience_on_loaded(object, addHeapObject(shadow_root));
+}
+
+/**
+* @returns {string}
+*/
+export function components_web_experience_template() {
+    try {
+        wasm.components_web_experience_template(8);
+        var r0 = getInt32Memory0()[8 / 4 + 0];
+        var r1 = getInt32Memory0()[8 / 4 + 1];
+        return getStringFromWasm0(r0, r1);
+    } finally {
+        wasm.__wbindgen_free(r0, r1);
+    }
 }
 
 function isLikeNone(x) {

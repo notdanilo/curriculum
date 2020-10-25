@@ -1,6 +1,6 @@
 use crate::prelude::*;
 
-#[derive(Serialize, Deserialize, Debug, Default)]
+#[derive(WebComponent, Serialize, Deserialize, Debug, Default)]
 pub struct InfoBar {
     black : String,
     white : String
@@ -14,5 +14,4 @@ impl WebComponent for InfoBar {
     }
 }
 
-web_component!(InfoBar);
 template!(InfoBar);

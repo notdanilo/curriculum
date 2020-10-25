@@ -1,6 +1,6 @@
 use crate::prelude::*;
 
-#[derive(Serialize,Deserialize,Debug,Default)]
+#[derive(WebComponent, Serialize,Deserialize,Debug,Default)]
 pub struct Contact {
     pub name     : String,
     pub title    : String,
@@ -26,5 +26,4 @@ impl WebComponent for Contact {
     }
 }
 
-web_component!(Contact);
 template!(Contact);

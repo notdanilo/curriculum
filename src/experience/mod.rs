@@ -2,7 +2,7 @@ use crate::prelude::*;
 
 use crate::role::Role;
 
-#[derive(Serialize, Deserialize, Debug, Default)]
+#[derive(WebComponent, Serialize, Deserialize, Debug, Default)]
 pub struct Experience {
     company     : String,
     description : String,
@@ -28,5 +28,4 @@ impl WebComponent for Experience {
     }
 }
 
-web_component!(Experience);
 template!(Experience);

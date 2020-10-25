@@ -11,7 +11,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 serde         = { version = "1.0.104", features = [ "derive" ] }
-web-component = { path = "gui/web-component/rust" }
+web-component = "0.1.4"
 
 
 [dependencies.web-sys]

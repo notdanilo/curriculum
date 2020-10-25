@@ -1,6 +1,6 @@
 use crate::prelude::*;
 
-#[derive(Serialize, Deserialize, Debug, Default)]
+#[derive(WebComponent, Serialize, Deserialize, Debug, Default)]
 pub struct Section {
     name : String
 }
@@ -12,5 +12,4 @@ impl WebComponent for Section {
     }
 }
 
-web_component!(Section);
 template!(Section);

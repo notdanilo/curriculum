@@ -1,6 +1,6 @@
 use crate::prelude::*;
 
-#[derive(Serialize, Deserialize, Debug, Default)]
+#[derive(WebComponent, Serialize, Deserialize, Debug, Default)]
 pub struct Knowledge {
     name : String,
     info : Vec<String>
@@ -22,5 +22,4 @@ impl WebComponent for Knowledge {
     }
 }
 
-web_component!(Knowledge);
 template!(Knowledge);

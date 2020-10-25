@@ -4,7 +4,7 @@ use crate::education::Education;
 use crate::experience::Experience;
 use crate::knowledge::Knowledge;
 
-#[derive(Serialize, Deserialize, Debug, Default)]
+#[derive(WebComponent, Serialize, Deserialize, Debug, Default)]
 pub struct Curriculum {
     contact     : Contact,
     education   : Education,
@@ -25,5 +25,4 @@ impl WebComponent for Curriculum {
     }
 }
 
-web_component!(Curriculum);
 template!(Curriculum);
