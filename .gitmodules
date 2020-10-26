@@ -1,6 +1,0 @@
-[submodule "gui/v-element"]
-	path = gui/v-element
-	url = git@github.com:notdanilo/v-element
-[submodule "gui/web-component"]
-	path = gui/web-component
-	url = https://github.com/notdanilo/web-component

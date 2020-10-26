@@ -4,20 +4,22 @@ This project reads a formatted JSON file and generates a HTML5 curriculum.
 
 ## Requirements
 
-1. Python3
+```bash
+cargo install web-component`
+```
 
 ## Building
 
 To build the web assembly code, run:
 ```bash
-./scripts/build.sh
+cargo web-component build
 ```
 
-## Running
+## Running the development web server
 
-To initialize a web server at port 80, run:
+To initialize the web server at port 8080, run:
 ```bash
-curriculum/gui$ sudo ../automation/server.py
+cargo web-component serve
 ```
 
 ## JSON Format
