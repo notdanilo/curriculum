@@ -5,7 +5,7 @@ This project reads a formatted JSON file and generates a HTML5 curriculum.
 ## Requirements
 
 ```bash
-cargo install web-component`
+cargo install cargo-web-component`
 ```
 
 ## Building
