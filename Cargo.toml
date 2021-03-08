@@ -11,7 +11,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 serde         = { version = "1.0.104", features = [ "derive" ] }
-web-component = "0.1.4"
+web-component = "0.1.5"
 
 
 [dependencies.web-sys]
