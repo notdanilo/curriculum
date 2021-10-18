@@ -1,6 +1,6 @@
 use crate::prelude::*;
 
-#[derive(Serialize,Deserialize,Debug,Default)]
+#[derive(WebComponent, Serialize,Deserialize,Debug,Default)]
 pub struct Contact {
     pub name     : String,
     pub title    : String,
@@ -10,8 +10,8 @@ pub struct Contact {
     pub birthday : String
 }
 
-impl WebView for Contact {
-    fn new_view(attributes:NamedNodeMap) -> Self {
+impl WebComponent for Contact {
+    fn create_component(attributes:NamedNodeMap) -> Self {
         let attribute = attributes.get_named_item("json");
         if let Some(attribute) = attribute {
             let json = attribute.value();
@@ -26,5 +26,4 @@ impl WebView for Contact {
     }
 }
 
-webview!(Contact);
 template!(Contact);

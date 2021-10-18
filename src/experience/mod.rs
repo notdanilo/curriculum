@@ -2,15 +2,18 @@ use crate::prelude::*;
 
 use crate::role::Role;
 
-#[derive(Serialize, Deserialize, Debug, Default)]
+#[derive(WebComponent, Serialize, Deserialize, Debug, Default)]
 pub struct Experience {
     company     : String,
     description : String,
     role        : Role
 }
 
-impl WebView for Experience {
-    fn new_view(attributes:NamedNodeMap) -> Self {
+impl Experience {
+}
+
+impl WebComponent for Experience {
+    fn create_component(attributes:NamedNodeMap) -> Self {
         let attribute = attributes.get_named_item("json");
         if let Some(attribute) = attribute {
             let json = attribute.value();
@@ -25,5 +28,4 @@ impl WebView for Experience {
     }
 }
 
-webview!(Experience);
 template!(Experience);

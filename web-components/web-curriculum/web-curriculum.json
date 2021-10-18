@@ -13,6 +13,61 @@
   },
   "experiences": [
     {
+      "company": "Sensorial Systems",
+      "description": "Building intelligent systems with real-world data",
+      "role": {
+        "name": "Founder",
+        "period": "March 2021 - Present",
+        "location": "São Paulo - BRA.",
+        "keywords": ["Machine Learning", "Unreal Engine", "Synthetic Data", "Simulation", "Rust", "Experiments"],
+        "activities": "Sensorial Systems was founded to facilitate serving two of my clients with needs that could be met with a core technology of the company: a binding generator that bridges the Rust ecosystem with other lands."
+      }
+    },
+    {
+      "company": "(Stealth Company)",
+      "description": "A digital twins company in stealth mode",
+      "role": {
+        "name": "Software Engineer",
+        "period": "March 2021 - Present",
+        "location": "ENG.",
+        "keywords": ["Cloud", "Unreal Engine", "Interactive Live Streaming", "Architecture","Rust", "C++", "Blueprints"],
+        "activities": "Developed the base technologies for an interactive cloud-based ultra-realistic architecture renderer."
+      }
+    },
+    {
+      "company": "Nash",
+      "description": "A Decentralized Cryptocurrency Exchanger",
+      "role": {
+        "name": "Rust Software Engineer",
+        "period": "November 2020 - Present",
+        "location": "Vaduz, LIE.",
+        "keywords": ["Rust", "Bitcoin", "Ethereum", "Neo", "Cryptography", "High-Performance Trading" ],
+        "activities": "Maintain the Rust exchange client and the high-performance trading Rust library called OpenLimits, which includes its C#, Java and Python bindings."
+      }
+    },
+    {
+      "company": "Artists & Engineers",
+      "description": "A Production and Technology Studio",
+      "role": {
+        "name": "VFX R&D",
+        "period": "November 2020 - January 2021",
+        "location": "London, ENG.",
+        "keywords": ["Unreal Engine 4", "Niagara", "Compute Shader" ],
+        "activities": "Research and development of fast GPU-accelerated Catmull-Rom splines in Niagara."
+      }
+    },
+    {
+      "company": "Marshmallow Laser Feast",
+      "description": "Experiential Art Collective",
+      "role": {
+        "name": "Fluid Simulation R&D",
+        "period": "September 2020 - November 2020",
+        "location": "London, ENG.",
+        "keywords": ["Unreal Engine 4", "Niagara", "Compute Shader" ],
+        "activities": "Research and development of a real-time SPH fluid simulation."
+      }
+    },
+    {
       "company": "New Byte Order",
       "description": "Hybrid textual-visual programming language",
       "role": {

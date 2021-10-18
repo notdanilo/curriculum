@@ -7,3 +7,6 @@ pub mod section;
 pub mod experience;
 pub mod role;
 pub mod knowledge;
+
+use prelude::*;
+package!();

@@ -1,13 +1,13 @@
 use crate::prelude::*;
 
-#[derive(Serialize, Deserialize, Debug, Default)]
+#[derive(WebComponent, Serialize, Deserialize, Debug, Default)]
 pub struct Knowledge {
     name : String,
     info : Vec<String>
 }
 
-impl WebView for Knowledge {
-    fn new_view(attributes:NamedNodeMap) -> Self {
+impl WebComponent for Knowledge {
+    fn create_component(attributes:NamedNodeMap) -> Self {
         let attribute = attributes.get_named_item("json");
         if let Some(attribute) = attribute {
             let json = attribute.value();
@@ -22,5 +22,4 @@ impl WebView for Knowledge {
     }
 }
 
-webview!(Knowledge);
 template!(Knowledge);

@@ -1,5 +1,5 @@
 [package]
-name    = "v-curriculum"
+name    = "web-curriculum"
 version = "0.1.0"
 authors = ["Danilo Guanabara <danguafer@gmail.com>"]
 edition = "2018"
@@ -10,11 +10,8 @@ crate-type = ["cdylib"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-serde        = { version = "1.0.104", features = [ "derive" ] }
-serde_json   = "1.0.48"
-wasm-bindgen = "0.2.58"
-paste        = "0.1.8"
-v-element    = { path = "gui/v-element/rust" }
+serde         = { version = "1.0.104", features = [ "derive" ] }
+web-component = "0.1.5"
 
 
 [dependencies.web-sys]

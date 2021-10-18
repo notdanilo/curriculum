@@ -1,1 +1,1 @@
-pub use v_element::*;
+pub use web_component::prelude::*;

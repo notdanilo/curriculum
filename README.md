@@ -2,23 +2,14 @@
 
 This project reads a formatted JSON file and generates a HTML5 curriculum.
 
-## Requirements
+## Note
 
-1. Python3
+1. This repository contains submodules. Be sure you have them initialized.
+2. The Rust source code is unused because web-component was reworked and the Rust part is no longer working.
 
-## Building
+## Serving
 
-To build the web assembly code, run:
-```bash
-./scripts/build.sh
-```
-
-## Running
-
-To initialize a web server at port 80, run:
-```bash
-curriculum/gui$ sudo ../automation/server.py
-```
+`python serve.py`
 
 ## JSON Format
 

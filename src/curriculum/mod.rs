@@ -4,7 +4,7 @@ use crate::education::Education;
 use crate::experience::Experience;
 use crate::knowledge::Knowledge;
 
-#[derive(Serialize, Deserialize, Debug, Default)]
+#[derive(WebComponent, Serialize, Deserialize, Debug, Default)]
 pub struct Curriculum {
     contact     : Contact,
     education   : Education,
@@ -14,10 +14,9 @@ pub struct Curriculum {
     links       : Vec<Knowledge>
 }
 
-
-impl WebView for Curriculum {
-    fn new_view(_attributes:NamedNodeMap) -> Self {
-        let json     = include_str!("curriculum.json");
+impl WebComponent for Curriculum {
+    fn create_component(_attributes:NamedNodeMap) -> Self {
+        let json = include_str!("web-curriculum.pt.json");
         if let Ok(object) = serde_json::from_str(&json) {
             object
         } else {
@@ -26,5 +25,4 @@ impl WebView for Curriculum {
     }
 }
 
-webview!(Curriculum);
 template!(Curriculum);
