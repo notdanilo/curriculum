@@ -2,25 +2,14 @@
 
 This project reads a formatted JSON file and generates a HTML5 curriculum.
 
-## Requirements
+## Note
 
-```bash
-cargo install cargo-web-component`
-```
+1. This repository contains submodules. Be sure you have them initialized.
+2. The Rust source code is unused because web-component was reworked and the Rust part is no longer working.
 
-## Building
+## Serving
 
-To build the web assembly code, run:
-```bash
-cargo web-component build
-```
-
-## Running the development web server
-
-To initialize the web server at port 8080, run:
-```bash
-cargo web-component serve
-```
+`python serve.py`
 
 ## JSON Format
 
