@@ -16,7 +16,7 @@ pub struct Curriculum {
 
 impl WebComponent for Curriculum {
     fn create_component(_attributes:NamedNodeMap) -> Self {
-        let json = include_str!("web-curriculum.json");
+        let json = include_str!("web-curriculum.pt.json");
         if let Ok(object) = serde_json::from_str(&json) {
             object
         } else {

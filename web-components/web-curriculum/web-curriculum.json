@@ -1,124 +1,168 @@
 {
   "contact" : {
     "name"     : "Danilo Guanabara",
-    "title"    : "Engenheiro de Software",
-    "address"  : "Morumbi. São Paulo, São Paulo. Brasil",
+    "title"    : "Software Engineer",
+    "address"  : "Morumbi. São Paulo, São Paulo. Brazil",
     "phone"    : "+55 11 9 8250 0040",
     "email"    : "danguafer@gmail.com",
     "birthday" : "02/07/1988"
   },
   "education": {
-    "title": "Bacharel em Ciência da Computação",
-    "institute": "UNESP"
+    "title": "Bachelors in Computer Science",
+    "institute": "State University of São Paulo"
   },
   "experiences": [
     {
-      "company": "Marshmellow Laser Feast",
-      "description": "Coletivo de Arte Experiencial",
+      "company": "Sensorial Systems",
+      "description": "Building intelligent systems with real-world data",
       "role": {
-        "name": "P&D Simulaçao de Fluidos",
-        "period": "Setembro 2020 - Presente",
+        "name": "Founder",
+        "period": "March 2021 - Present",
+        "location": "São Paulo - BRA.",
+        "keywords": ["Machine Learning", "Unreal Engine", "Synthetic Data", "Simulation", "Rust", "Experiments"],
+        "activities": "Sensorial Systems was founded to facilitate serving two of my clients with needs that could be met with a core technology of the company: a binding generator that bridges the Rust ecosystem with other lands."
+      }
+    },
+    {
+      "company": "(Stealth Company)",
+      "description": "A digital twins company in stealth mode",
+      "role": {
+        "name": "Software Engineer",
+        "period": "March 2021 - Present",
+        "location": "ENG.",
+        "keywords": ["Cloud", "Unreal Engine", "Interactive Live Streaming", "Architecture","Rust", "C++", "Blueprints"],
+        "activities": "Developed the base technologies for an interactive cloud-based ultra-realistic architecture renderer."
+      }
+    },
+    {
+      "company": "Nash",
+      "description": "A Decentralized Cryptocurrency Exchanger",
+      "role": {
+        "name": "Rust Software Engineer",
+        "period": "November 2020 - Present",
+        "location": "Vaduz, LIE.",
+        "keywords": ["Rust", "Bitcoin", "Ethereum", "Neo", "Cryptography", "High-Performance Trading" ],
+        "activities": "Maintain the Rust exchange client and the high-performance trading Rust library called OpenLimits, which includes its C#, Java and Python bindings."
+      }
+    },
+    {
+      "company": "Artists & Engineers",
+      "description": "A Production and Technology Studio",
+      "role": {
+        "name": "VFX R&D",
+        "period": "November 2020 - January 2021",
         "location": "London, ENG.",
         "keywords": ["Unreal Engine 4", "Niagara", "Compute Shader" ],
-        "activities": "Pesquisa e desenvolvimento de um simulador de fluidos SPH em tempo real."
+        "activities": "Research and development of fast GPU-accelerated Catmull-Rom splines in Niagara."
+      }
+    },
+    {
+      "company": "Marshmallow Laser Feast",
+      "description": "Experiential Art Collective",
+      "role": {
+        "name": "Fluid Simulation R&D",
+        "period": "September 2020 - November 2020",
+        "location": "London, ENG.",
+        "keywords": ["Unreal Engine 4", "Niagara", "Compute Shader" ],
+        "activities": "Research and development of a real-time SPH fluid simulation."
       }
     },
     {
       "company": "New Byte Order",
-      "description": "Linguagem de programação híbrida visual-textual",
+      "description": "Hybrid textual-visual programming language",
       "role": {
-        "name": "Desenvolvedor do núcleo Luna-lang",
-        "period": "Novembro 2019 – Setembro 2020",
+        "name": "Luna-lang Core Developer",
+        "period": "Nov 2019 – Current",
         "location": "Kraków, Małopolskie. POL",
         "keywords": ["Rust", "WebAssembly", "WebGL", "GUI Systems", "Physics Simulation", "Data Visualization"],
-        "activities": "Enso 2.0\nTrabalhei no desenvolvimento da segunda versão da linguagem anteriormente conhecida como Luna. Luna foi consolidada como a linguagem de programação textual-visual orientada a dados mais avançada da atualidade. Enso 2.0 veio com o propósito de deixar a linguagem mais eficiente, tendo seu backend desenvolvido em Scala e seu front-end em Rust compilado para WebAssembly e com sua interface gráfica renderizada com WebGL 2.0."
+        "activities": "In mid 2019, I heard about a job opening to work on Luna project. It was a perfect match: I was looking to develop in Rust, I filled all the job requirements and I also have been thinking for a long time to create a visual programming language to democratize software development.\n\nDuring my first days at the company, I was responsible for creating part of our GUI renderer, mixing up CSS 3D with WebGL objects. I also developed the user input system and finished our mouse based graph navigation using physics simulation for a smoothed experience.\n\nOne of the most exciting functionalities I had the opportunity to work on was the Graph Editor, a node-based programming tool which edits and updates textual code as the user creates nodes and adds new connections."
       }
     },
     {
       "company": "Shield AI",
-      "description": "Robôs Autônomos para Segurança Nacional",
+      "description": "Natsec automonous robots",
       "role": {
-        "name": "Engenheiro de Simulação",
-        "period": "Junho 2018 – Julho 2019",
+        "name": "Simulation Engineer",
+        "period": "Jun 2018 – Jul 2019",
         "location": "Pittsburgh, PA. USA",
         "keywords": ["C/C++", "Unreal Engine 4", "ROS", "Procedural Generation", "Simulation Models", "Microsoft AirSim"],
-        "activities": "Morpheus\nTrabalhei no desenvolvimento do motor de simulação de quadcopteros da ShieldAI, empresa atuante na indústria de segurança nacional estadunidense, qual foi peça fundamental para baratear o processo de treinamento e validação das inteligências artificiais utilizadas nos quadcopteros, reduzindo danos nos robôs físicos. Com uma equipe capacitada, utilizando processos ágeis, conseguimos desenvolver a primeira versão do simulador em 6 meses. Um mês após a entrega da primeira versão, a utilização dos quadcopteros em situações de combate reais foi reportada com sucesso. A base de Morpheus foi o motor de jogos Unreal Engine 4, qual extendemos com C++ e integramos ao ROS (Robot Operating System), o que nos permitiu entregar um sistema de simulação física em tempo real preciso e com visuais suficientemente fotorrealistas para treinamento da visão computacional dos robôs."
+        "activities": "In 2018, part of Red Pill VR's team was hired by Shield AI, a company heardquartered in San Diego that develops autonomous quadcopters to map buildings, to identify objects and threats, making data available for tactical decisions.\n\nWe then composed the simulation team. My first project at Shield AI's was to developed a procedural building, bunkers and caves generator.\n\nLater, I worked on a mission playback and data visualization project. I developed the GUI and the sensors visualizers for Sonar, LIDAR, Distance and IMU. And I also worked on the PointCloud renderer, used for visualizing the points provided by the robot's depth camera.\n\nI was also responsible for integrating the ROS platform with our UE4's simulation system, creating sensors simulation models and defining virtual quadcopter models, using the different components we had."
       }
     },
     {
       "company": "Red Pill VR",
-      "description": "Experiências em Realidade Virtual",
+      "description": "Virtual Reality experiences",
       "role": {
-        "name": "Engenheiro Gráfico",
-        "period": "Julho 2017 – Setembro 2018",
+        "name": "Graphics Engineer",
+        "period": "Jul 2017 – Sep 2018",
         "location": "Los Angeles, CA. USA",
         "keywords": ["C/C++", "Unreal Engine 4", "Rendering System", "VR Optimization", "PhysX", "Procedural Animation", "Inverse Kinematics"],
-        "activities": "Social Venue\nAtuei no desenvolvimento de uma experiência musical em realidade virtual chamada Social Venue. Red Pill VR é uma empresa atuante no mercado de entretenimento em Los Angeles com uma estreita relação com a indústria hollywoodiana onde o projeto foi utilizado na premiere do filme Ready Player One. Utilizamos Unreal Engine 4 para desenvolver a experiência e também o mecanismo central da experiência: um motor de análise musical, Venice, utilizado para sincronizar os elementos visuais do mundo virtual. Além disso, também integramos hardwares de mixagem reais (CDJs) para que DJs pudessem performar na Social Venue."
+        "activities": "On my second contact with Red Pill VR, I was hired full time to work on a company's new project: Social Venue. Social Venue is a virtual reality multiplayer music experience. We had two different interfaces to join this environment: player and DJ.\n\nThe DJ could use a real CDJ synced up with a virtual CDJ via MIDI. To make it a fluid experience, we replicated the hands pose on the CDJ using Leap Motion's fingers tracking.\n\nThe player was able to explore and interact with many visual effects synchronized with music.\n\nWe used the newest musical analysis engine, now called Venice, to synchronize the effects with music. On Venice, I worked on simplifying the API to make it easier to use by technical artists and on its beats and notes detection.\n\nWe used a stateless server for the experience. To synchronize the experience between players, I created a p2p mechanism to distribute the state between them. The states were lost when there was no player to store the data, allowing the experience to be restarted.\n\nI also worked on many visual effects synced with music and in one of Social Venue's gameplays, called Moon Gravity, which was partially based on the gameplay of Echo Arena."
       }
     },
     {
       "company": "Yandeh",
-      "description": "Inteligência de Negócio para Varejo",
+      "description": "Retail Industry BI Solutions",
       "role": {
-        "name": "Engenheiro IoT",
-        "period": "Março 2016 – Novembro 2016",
+        "name": "IoT Engineer",
+        "period": "Mar 2016 – Nov 2016",
         "location": "São Paulo, SP. BRA",
         "keywords": ["C/C++", "Java", "Javascript", "Python", "Shell Script", "AWS S3", "AWS Cloudwatch", "AWS IAM", "AWS SNS", "AWS API Gateway", "AWS SES", "AWS EC2", "AWS Lambda", "Elasticsearch", "Tableau"],
-        "activities": "Sistema de Captura de Dados\nFui responsável pelo sistema de captura de dados da Yandeh qual abrangia um mecanismo de captura de dados das emissoras fiscais, um parser de cupons fiscais e integrações de bancos de dados de clientes. Para desenvolver o sistema, criamos funções Lambda no AWS para receber os dados em seus respectivos formatos e tranformá-los nossa ETL para que a equipe de ciência de dados pudessem trabalhar com eles.\n\nSistema de Monitoramento\nPara monitorar o funcionamento dos nossos pontos de captura instalados nas lojas, criei um dashboard Kibana/ElasticSearch para monitorar nossos logs e verificar a qualidade dos dados e o uptime dos pontos.\n\nContratações e Cultura\nPor fazer parte dos primeiros 10 da empresa, tive um papel fundamental na contratação dos que vieram depois de mim e no estabelecimento de uma cultura diversa e humanizada no tratamento dos funcionários. Fui responsável na contratação nos times de desenvolvimento de drivers, backend e ciência de dados.\n\nConstrução da Marca\nTambém fui responsável por pela comunicação com a empresa de branding contratada pela empresa, garantindo que a estética e que a marca transmitisse nossa cultura."
+        "activities": "In the beginning of 2016, I was invited to be part of the initial team of Yandeh, a company founded by partners of the biggest brazilian bank, Itaú Bank, with the purpose of mapping and tracking the national retail industry, providing business inteligence services.\n\nBeyond working as a software engineer, developing data capture IoT devices, I was also responsible for hiring, branding and stablishing the company's culture. In 1 year, we got a vast clientele of brazilian brands, selling services of geolocalized consumption analysis and advertising impact prediction."
       }
     },
     {
-      "company": "Red Pill VR",
-      "description": "Experiências em Realidade Virtual",
+      "company": "Red Pill VR X",
+      "description": "Virtual Reality experiences",
       "role": {
-        "name": "Artista Técnico",
-        "period": "Novembro 2015 – Julho 2016",
+        "name": "Technical Artist",
+        "period": "Nov 2015 – Jul 2016",
         "location": "Los Angeles, CA. USA",
         "keywords": ["Virtual Reality HMD" , "Audio Visualization", "Onset Detection", "PopcornFX particle system", "Direct 3D 11", "HLSL", "Compute Shaders"],
-        "activities": "Sistemas de Partículas\nNo meu primeiro contato com a Red Pill VR, desenvolvi algumas animações com o sistemas de partículas PopcornFX sincronizadas com a primeira versão do motor de análise musical. PopcornFX utiliza um modelo de computação vetorizada traduzível para execução em GPGPU ou CPU. Fui responsável pela integração da ferramenta com o motor de análise musical, Nebula, no precursor da Social Venue, projeto que surgiria 1 ano depois."
+        "activities": "By the end of 2015, I had my first contact with Red Pill VR, a virtual reality experiences startup headquartered in Los Angeles.\n\nThe company got interested in my curriculum and they invited me to develop real time VFX using the particle system tool PopcornFX on Unreal Engine 4, synchronizing the effects with the first version of Red Pill's musical analysis engine called Nebula."
       }
     },
     {
       "company": "Ortiz Gaming",
-      "description": "Soluções para Cassino",
+      "description": "Casino games solutions",
       "role": {
-        "name": "Engenheiro de Software para Sistemas Embarcados",
-        "period": "Novembro 2014 – Agosto 2015",
+        "name": "Embedded Systems Software Engineer",
+        "period": "Nov 2014 – Aug 2015",
         "location": "São Paulo, SP. BRA",
         "keywords": ["C/C++", "Embedded Systems", "x86-64", "Image Processing", "DSP Filters", "TCP/IP stack", "Software Engineering"],
-        "activities": "Normalização dos Sistemas de Áudio\nFui responsável por resolver a resposta de frequência inconstante nas diferentes plataformas de jogos da empresa. Para isso programei filtros DSP em SIMD.\n\nSistema Unificado de Teste de Hardwares\nAtuei no desenvolvimento do sistema unificado de teste de hardwares, sistema responsável em testar todos os periféricos das plataformas de jogos, que incluia botões, tela, tela tátil, sistema de som, moedeiro e máquina de confete.\n\nIntegração do Protocolo GAT (Gaming Authentication Terminal)\nImplementei também o protocolo requerido para atuação no mercado estadunidense. GAT é um protocolo serial de requisição e resposta para validação de máquinas de cassino, para garantir que o retorno dessas máquinas estão dentro das normas legais."
+        "activities": "When I returned to Brazil, my experience with Digisign and the mexican market caught the attention of Ortiz Gaming, a casino solutions company which main clients were from hispanics countries. The company developed its own gaming machine, integrating third-parties components, like bill acceptors, or its own components, like electronic party poppers. The company also develops the games for its platforms.\n\nMy first job at Ortiz Gaming was to normalize the frequency response of the audio on all platforms, which was done with a SIMD optimized equalizers.\n\nAn unified hardware testing platform was another urgent need of the company. For this solution, I created several unit tests for the components and I made a GUI for manually testing the available IO components, like bill acceptors, printers, buttons and speakers.\n\nThe company's main goal in 2015 was to enter the American market in Las Vegas but, to accomplish that, we had to be compliant to the local gambling laws. I worked on the software requirements to enter this market, implementing the GAT (Gaming Authentication Terminal) protocol in our gaming machines. This interface was required to simulate gaming operations, ensuring the return rate required by law.\n\nMy last contribution to the company was the creation of a game template to speed up games prototypes by the art team."
       }
     },
     {
       "company": "Digisign",
-      "description": "Soluções de Sinalização Digital",
+      "description": "Digital Signage Solutions",
       "role": {
         "name": "Embedded Systems Software Engineer",
-        "period": "Agosto 2012 – Julho 2013",
+        "period": "Aug 2012 – Jul 2013",
         "location": "Mexico City, DF. MEX",
         "keywords": ["C/C++", "OpenGL", "WebGL", "HTML5", "Javascript", "ActionScript", "NodeJS", "Mobile Development", "Inertial Navigation", "Pathfinding", "Graphics Engineering", "Game Engineering"],
-        "activities": "AyWey\nMinha principal contribuição na Digisign foi o desenvolvimento da plataforma clone do Wayfinding System MyWay, um sistema de mapa para shopping e aeroportos. O sistema foi desenvolvido do zero com C++ e OpenGL, para que rodasse de forma eficiente no nosso sistema embarcado. O projeto foi desenvolvido por uma pequena equipe composta por um designer, um desenvolvedor backend e um desenvolvedor frontend. Minha atuação foi principalmente como desenvolvedor frontend e fui responsável por liderar a equipe."
+        "activities": "The beginning of my professional career happened at Digisign México, a startup that developed totems for malls. The company developed its own hardware, software and its contents.\n\nI was hired by the company in late 2012 for working on site developing promotional games and drivers for its proprietary touchscreens.\n\nLater, I was responsible for the project to create the new totem platform for malls. The platform consisted of a map, routes for stores, store search by items and a list of promotional items."
       }
     }
   ],
   "knowledges": [
-    { "name": "Linguagens", "info": ["C/C++", "Rust", "C#", "Objective-C", "Swift", "Python", "Perl", "Ruby", "Lisp", "Haskell", "Java", "Javascript", "ActionScript", "x86-64", "MIPS & ARM"] },
-    { "name": "Robótica", "info": ["ROS", "Microsoft AirSim"] },
-    { "name": "Desenvolvimento de Jogos", "info": ["Unreal Engine 4", "Popcorn FX"] },
-    { "name": "Programação de Sistemas", "info": ["Windows", "Linux", "Android (Java", "NDK", "AOSP)", "OSX & iOS"] },
-    { "name": "APIs Gráficas", "info": ["Vulkan", "OpenGL", "OpenGL ES", "WebGL & Direct3D"] },
-    { "name": "APIs de Visão Computacional", "info": ["OpenCV", "OpenNI & Kinect SDK"] },
-    { "name": "APIs de Áudio", "info": ["OpenAL", "OpenSL ES", "ALSA", "DirectSound & WebAudio"] },
-    { "name": "APIs de Computação", "info": ["OpenCL", "WebCL", "Vulkan & Compute Shaders"] },
-    { "name": "Protocolos", "info": ["Ethernet", "IEEE 802.11", "IP", "TCP", "UDP", "WebSocket", "DHCP", "ISO 8583"] },
-    { "name": "Núvem", "info": ["AWS IAM", "AWS SNS", "AWS SES", "AWS S3", "AWS EC2", "AWS API Gateway", "AWS Lambda", "AWS Cloudwatch", "Elasticsearch"] },
+    { "name": "Languages", "info": ["C/C++", "Rust", "C#", "Objective-C", "Swift", "Python", "Perl", "Ruby", "Lisp", "Haskell", "Java", "Javascript", "ActionScript", "x86-64", "MIPS & ARM"] },
+    { "name": "Robotics", "info": ["ROS", "Microsoft AirSim"] },
+    { "name": "Gamedev", "info": ["Unreal Engine 4", "Popcorn FX"] },
+    { "name": "OS Programming", "info": ["Windows", "Linux", "Android (Java", "NDK", "AOSP)", "OSX & iOS"] },
+    { "name": "Graphics API", "info": ["Vulkan", "OpenGL", "OpenGL ES", "WebGL & Direct3D"] },
+    { "name": "Computer Vision API", "info": ["OpenCV", "OpenNI & Kinect SDK"] },
+    { "name": "Audio API", "info": ["OpenAL", "OpenSL ES", "ALSA", "DirectSound & WebAudio"] },
+    { "name": "Computing API", "info": ["OpenCL", "WebCL", "Vulkan & Compute Shaders"] },
+    { "name": "Protocols", "info": ["Ethernet", "IEEE 802.11", "IP", "TCP", "UDP", "WebSocket", "DHCP", "ISO 8583"] },
+    { "name": "Cloud", "info": ["AWS IAM", "AWS SNS", "AWS SES", "AWS S3", "AWS EC2", "AWS API Gateway", "AWS Lambda", "AWS Cloudwatch", "Elasticsearch"] },
     { "name": "Web", "info": ["HTML5", "CSS3", "AngularJS", "ReactJS", "Vue.js", "Node.js & Emscripten"] },
-    { "name": "Miscelânea", "info": ["git", "git lfs", "Boost", "POCO & JUCE"] }
+    { "name": "Misc", "info": ["git", "git lfs", "Boost", "POCO & JUCE"] }
   ],
   "languages": [
-    { "name": "Português", "info": ["Nativo"] },
-    { "name": "Inglês", "info": ["Avançado"] },
-    { "name": "Espanhol", "info": ["Avançado"] }
+    { "name": "Portuguese", "info": ["Native"] },
+    { "name": "English", "info": ["Advanced"] },
+    { "name": "Spanish", "info": ["Advanced"] }
   ],
   "links": [
     { "name": "GitHub", "info": ["https://www.github.com/notdanilo"] },
