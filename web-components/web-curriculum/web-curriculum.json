@@ -2,9 +2,9 @@
   "contact" : {
     "name"     : "Danilo Guanabara",
     "title"    : "Software Engineer",
-    "address"  : "Morumbi. São Paulo, São Paulo. Brazil",
+    "address"  : "São Paulo, São Paulo. Brazil",
     "phone"    : "+55 11 9 8250 0040",
-    "email"    : "danguafer@gmail.com",
+    "email"    : "danilo@sensorial.systems",
     "birthday" : "02/07/1988"
   },
   "education": {
@@ -13,6 +13,17 @@
   },
   "experiences": [
     {
+      "company": "Rude Robots Studios",
+      "description": "The blockchain-based game company behind Nyan Heroes",
+      "role": {
+        "name": "Senior Game Engine Engineer",
+        "period": "December 2021 - Present",
+        "location": "Singapore",
+        "keywords": ["Unreal Engine", "Blockchain", "Solana", "Wallet", "Gameplay", "VFX", "Cloud", "Rust", "C++", "Blueprints" ],
+        "activities": "I worked on many different aspects of the game. Its gameplay elements such as guns, bullet dynamics, vfx, character animation, abilities and blockchain integration. I also implemented part of the workflow Azure DevOps CI, Git Hooks and other tools for assisting the art team on using Git LFS."
+      }
+    },
+    {
       "company": "Sensorial Systems",
       "description": "Building intelligent systems with real-world data",
       "role": {
@@ -20,18 +31,18 @@
         "period": "March 2021 - Present",
         "location": "São Paulo - BRA.",
         "keywords": ["Machine Learning", "Unreal Engine", "Synthetic Data", "Simulation", "Rust", "Experiments"],
-        "activities": "Sensorial Systems was founded to facilitate serving two of my clients with needs that could be met with a core technology of the company: a binding generator that bridges the Rust ecosystem with other lands."
+        "activities": "Sensorial Systems was founded to facilitate serving two of my clients with needs that could be met with a core technology of the company: a binding generator that bridges Rust with other systems. It was maintained by 2 developers"
       }
     },
     {
-      "company": "(Stealth Company)",
-      "description": "A digital twins company in stealth mode",
+      "company": "Amutri",
+      "description": "A digital twins company",
       "role": {
         "name": "Software Engineer",
-        "period": "March 2021 - Present",
-        "location": "ENG.",
+        "period": "March 2021 - December 2021",
+        "location": "Falmouth, ENG.",
         "keywords": ["Cloud", "Unreal Engine", "Interactive Live Streaming", "Architecture","Rust", "C++", "Blueprints"],
-        "activities": "Developed the base technologies for an interactive cloud-based ultra-realistic architecture renderer."
+        "activities": "I developed the base technologies for an interactive cloud-based ultra-realistic architecture renderer.\nImplementation of Unreal Engine's Pixel Streaming on AWS displaying the objects hierarchy of an IFC file loaded from Rust."
       }
     },
     {
@@ -42,7 +53,7 @@
         "period": "November 2020 - Present",
         "location": "Vaduz, LIE.",
         "keywords": ["Rust", "Bitcoin", "Ethereum", "Neo", "Cryptography", "High-Performance Trading" ],
-        "activities": "Maintain the Rust exchange client and the high-performance trading Rust library called OpenLimits, which includes its C#, Java and Python bindings."
+        "activities": "I was responsible for maintaining the Rust exchange client and the high-performance trading Rust library called OpenLimits and its C#, Java and Python bindings."
       }
     },
     {
@@ -53,7 +64,7 @@
         "period": "November 2020 - January 2021",
         "location": "London, ENG.",
         "keywords": ["Unreal Engine 4", "Niagara", "Compute Shader" ],
-        "activities": "Research and development of fast GPU-accelerated Catmull-Rom splines in Niagara."
+        "activities": "Research and development of GPU-accelerated Catmull-Rom splines in Niagara."
       }
     },
     {
