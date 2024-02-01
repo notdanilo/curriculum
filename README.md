@@ -9,7 +9,7 @@ This project reads a formatted JSON file and generates a HTML5 curriculum.
 
 ## Serving
 
-`python serve.py`
+Use `cargo run` to run the `server`
 
 ## JSON Format
 
