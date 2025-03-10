@@ -1,0 +1,205 @@
+{
+  "contact" : {
+    "name"     : "Danilo Guanabara",
+    "title"    : "Software Engineer",
+    "address"  : "São Paulo, São Paulo. Brazil",
+    "phone"    : "+55 11 9 8250 0040",
+    "email"    : "danilo@sensorial.systems",
+    "birthday" : "02/07/1988"
+  },
+  "education": {
+    "title": "Bachelors in Computer Science",
+    "institute": "State University of São Paulo"
+  },
+  "experiences": [
+    {
+      "company": "MagicBlock",
+      "description": "An infrastructure company for the Solana ecosystem",
+      "role": {
+        "name": "Senior Solana Engineer",
+        "period": "November 2024 - Present",
+        "location": "São Paulo - BRA.",
+        "keywords": ["Solana", "Rust", "Web3", "Blockchain", "Game Development"],
+        "activities": "• Main developer and maintainer of Bolt, an ECS-based game engine for building Fully-On-Chain games.\n\n• Developing a Doom-like game in the Bolt engine."
+      }
+    },
+    {
+      "company": "Jungle Studio",
+      "description": "The company behind the web3 mobile game For The Win",
+      "role": {
+        "name": "Senior Solana Engineer",
+        "period": "August 2024 - September 2024",
+        "location": "São Paulo - BRA.",
+        "keywords": ["Solana", "Rust", "Web3", "Blockchain"],
+        "activities": "• Developed a Solana-based Payment System for the web3 mobile game For The Win, enabling users to purchase in-game items and currency using SOL and USDC."
+      }
+    },
+    {
+      "company": "Sensorial Systems",
+      "description": "Building intelligent systems with real-world data",
+      "role": {
+        "name": "Founder",
+        "period": "March 2021 - Present",
+        "location": "São Paulo - BRA.",
+        "keywords": ["Machine Learning", "Unreal Engine", "Synthetic Data", "Simulation", "Rust", "Experiments"],
+        "activities": "• Established Sensorial Systems with a focus on leveraging real-world data to build intelligent systems, initiating the venture to meet the specific technological needs of clients through a proprietary binding generator that integrates Rust with various systems.\n\n• Spearheaded the development and continuous enhancement of the core technology, ensuring its adaptability and effectiveness in addressing complex integration challenges.\n\n• Innovated in machine learning and synthetic data generation, utilizing Unreal Engine for simulations and advanced experiments, thereby advancing the capabilities in data analysis and system integration."
+      }
+    },
+    {
+      "company": "Rude Robots Studios",
+      "description": "The blockchain-based game company behind Nyan Heroes",
+      "role": {
+        "name": "Senior Game Engine Engineer & Lead Blockchain Engineer",
+        "period": "December 2021 - August 2023",
+        "location": "Singapore",
+        "keywords": ["Unreal Engine", "Blockchain", "Solana", "Wallet", "Gameplay", "VFX", "Cloud", "Rust", "C++", "Blueprints" ],
+        "activities": "• Played a pivotal role at Rude Robots Studios, the innovative blockchain-based game company behind Nyan Heroes, contributing to various game development aspects including gameplay mechanics, VFX, character animations, and blockchain integration.\n\n• Led the development and integration of core gameplay elements such as guns, bullet dynamics, character abilities, and visual effects, enhancing the gaming experience.\n\n• Implemented and optimized development workflows using Azure DevOps CI, Git Hooks, and Git LFS, streamlining the art team's operations and improving efficiency in asset management.\n\n• Transitioned to lead the blockchain team, focusing on the integration of a proprietary Rust-based Solana wallet into the game engine, a key innovation enhancing the game's blockchain functionality.\n\n• Oversaw the maintenance and development of online subsystems, ensuring robust and secure online interactions within the game environment, leveraging a diverse tech stack including Unreal Engine, Rust, C++, and Blueprints."
+      }
+    },
+    {
+      "company": "Amutri",
+      "description": "A digital twins company",
+      "role": {
+        "name": "Software Engineer",
+        "period": "March 2021 - December 2021",
+        "location": "Falmouth, ENG.",
+        "keywords": ["Cloud", "Unreal Engine", "Interactive Live Streaming", "Architecture","Rust", "C++", "Blueprints"],
+        "activities": "• At Amutri, a pioneering digital twins company, I was instrumental in developing the foundational technologies for a cloud-based, ultra-realistic architectural rendering platform, enabling interactive visualization of complex structures.\n\n• Implemented Unreal Engine's Pixel Streaming technology on AWS to facilitate real-time, interactive live streaming of architectural models, showcasing the detailed object hierarchy of IFC files, seamlessly integrated using Rust.\n\n• My work encompassed not only the backend infrastructure in Rust and C++ but also the user interaction layer through Unreal Engine Blueprints, ensuring a comprehensive and immersive user experience."
+      }
+    },
+    {
+      "company": "Nash",
+      "description": "A Decentralized Cryptocurrency Exchanger",
+      "role": {
+        "name": "Rust Software Engineer",
+        "period": "November 2020 - Present",
+        "location": "Vaduz, LIE.",
+        "keywords": ["Rust", "Bitcoin", "Ethereum", "Neo", "Cryptography", "High-Performance Trading" ],
+        "activities": "• Tasked with the critical role of maintaining the Rust exchange client at Nash, a leading decentralized cryptocurrency exchange, ensuring robust, secure, and efficient operations.\n\n• Spearheaded the development and maintenance of OpenLimits, a high-performance trading library written in Rust, designed to facilitate rapid and reliable trading across various cryptocurrencies including Bitcoin, Ethereum, and NEO.\n\n• Extended the utility of OpenLimits by creating and maintaining bindings for C#, Java, and Python, significantly broadening the accessibility and integration capabilities of the library for developers across different programming environments.\n\n• Applied advanced cryptographic techniques to enhance the security and integrity of transactions, contributing to Nash's reputation for safety and reliability in the decentralized finance (DeFi) space."
+      }
+    },
+    {
+      "company": "Artists & Engineers",
+      "description": "A Production and Technology Studio",
+      "role": {
+        "name": "VFX R&D",
+        "period": "November 2020 - January 2021",
+        "location": "London, ENG.",
+        "keywords": ["Unreal Engine 4", "Niagara", "Compute Shader" ],
+        "activities": "• Specialized in research and development at Artists & Engineers, focusing on the implementation of GPU-accelerated Catmull-Rom splines within the Niagara visual effects system of Unreal Engine 4.\n\n• My work involved leveraging compute shaders to optimize and enhance the performance and visual quality of these splines, contributing to the studio's capability in producing advanced visual effects for various applications."
+      }
+    },
+    {
+      "company": "Marshmallow Laser Feast",
+      "description": "Experiential Art Collective",
+      "role": {
+        "name": "Fluid Simulation R&D",
+        "period": "September 2020 - November 2020",
+        "location": "London, ENG.",
+        "keywords": ["Unreal Engine 4", "Niagara", "Compute Shader" ],
+        "activities": "• Engaged in a cutting-edge research and development project focused on real-time SPH (Smoothed Particle Hydrodynamics) fluid simulation, contributing to the experiential art collective's innovative installations.\n\n• Leveraged Unreal Engine 4 and its Niagara visual effects system, along with advanced compute shaders, to create highly realistic and interactive fluid simulations, pushing the boundaries of digital art and interactive experiences."
+      }
+    },
+    {
+      "company": "New Byte Order",
+      "description": "Hybrid textual-visual programming language",
+      "role": {
+        "name": "Luna-lang Core Developer",
+        "period": "Nov 2019 – Current",
+        "location": "Kraków, Małopolskie. POL",
+        "keywords": ["Rust", "WebAssembly", "WebGL", "GUI Systems", "Physics Simulation", "Data Visualization"],
+        "activities": "• Joined New Byte Order in mid-2019, captivated by the Luna project's vision of creating a hybrid textual-visual programming language aimed at making software development more accessible.\n\n• Initially tasked with enhancing the GUI renderer, I innovatively integrated CSS 3D with WebGL objects to enrich the user interface. My contributions extended to developing a responsive user input system and refining our graph-based navigation using physics simulations for a smoother user experience.\n\n• Took on a pivotal role in developing the Graph Editor, a core feature of Luna-lang, which allows users to visually construct and manipulate code through a node-based interface. This innovative tool dynamically updates the textual code in real-time as nodes are created and connections are made, bridging the gap between visual and textual programming and facilitating an intuitive development process."
+      }
+    },
+    {
+      "company": "Shield AI",
+      "description": "Natsec automonous robots",
+      "role": {
+        "name": "Simulation Engineer",
+        "period": "Jun 2018 – Jul 2019",
+        "location": "Pittsburgh, PA. USA",
+        "keywords": ["C/C++", "Unreal Engine 4", "ROS", "Procedural Generation", "Simulation Models", "Microsoft AirSim"],
+        "activities": "• Transitioned to Shield AI in 2018, a San Diego-based innovator in national security technology, specializing in the development of autonomous quadcopters for building mapping, object and threat identification, and tactical data provision.\n\n• As a key member of the newly formed simulation team, my inaugural project involved the creation of a procedural generator for buildings, bunkers, and caves, laying the foundation for realistic and versatile training and testing environments.\n\n• Advanced the company's mission analysis capabilities through a mission playback and data visualization initiative, where I designed and implemented a user-friendly GUI along with sensor visualizers for Sonar, LIDAR, Distance, and IMU, enhancing the interpretation of sensor data.\n\n• Spearheaded the development of a PointCloud renderer, optimizing the visualization of depth camera data captured by the autonomous robots, thereby providing clearer insights into the operational environment.\n\n• Led the integration of the ROS platform with our Unreal Engine 4-based simulation system, contributing to the creation of accurate sensor simulation models and the definition of virtual quadcopter models, which incorporated various component configurations to simulate different operational scenarios."
+      }
+    },
+    {
+      "company": "Red Pill VR",
+      "description": "Virtual Reality experiences",
+      "role": {
+        "name": "Graphics Engineer",
+        "period": "Jul 2017 – Sep 2018",
+        "location": "Los Angeles, CA. USA",
+        "keywords": ["C/C++", "Unreal Engine 4", "Rendering System", "VR Optimization", "PhysX", "Procedural Animation", "Inverse Kinematics"],
+        "activities": "• Rejoined Red Pill VR to contribute full-time to the groundbreaking 'Social Venue' project, a multiplayer virtual reality music experience, showcasing my expertise in creating immersive VR environments for both players and DJs.\n\n• Innovated in the DJ interface by integrating real CDJ equipment with a virtual counterpart via MIDI, enhancing the DJ's experience with fluid hand and finger tracking using Leap Motion technology, thus closely mimicking the physical interaction with the equipment in the virtual space.\n\n• Enhanced the player's engagement by designing interactive visual effects that were dynamically synchronized with the music, providing an immersive exploration experience within the virtual venue.\n\n• Advanced the musical analysis capabilities with the latest engine, Venice, focusing on API simplification for improved accessibility by technical artists and enhancing the beats and notes detection features, thereby ensuring a seamless integration of visual effects with music.\n\n• Developed a novel peer-to-peer mechanism to maintain synchronized states across players in the stateless server environment of Social Venue, ensuring consistent and continuous shared experiences, with the system designed to reset gracefully when no players were present.\n\n• Contributed to the creation of captivating visual effects and a unique gameplay feature, 'Moon Gravity', drawing inspiration from Echo Arena's gameplay mechanics, to add a distinctive element to the Social Venue experience.\n\n• Employed a comprehensive tech stack including C/C++, Unreal Engine 4, advanced rendering systems, VR optimization techniques, PhysX for physics simulations, and procedural animation with inverse kinematics to achieve high-fidelity visual effects and animations."
+      }
+    },
+    {
+      "company": "Yandeh",
+      "description": "Retail Industry BI Solutions",
+      "role": {
+        "name": "IoT Engineer",
+        "period": "Mar 2016 – Nov 2016",
+        "location": "São Paulo, SP. BRA",
+        "keywords": ["C/C++", "Java", "Javascript", "Python", "Shell Script", "AWS S3", "AWS Cloudwatch", "AWS IAM", "AWS SNS", "AWS API Gateway", "AWS SES", "AWS EC2", "AWS Lambda", "Elasticsearch", "Tableau"],
+        "activities": "• Early in 2016, I joined Yandeh, an innovative startup backed by executives from Itaú Bank, aimed at revolutionizing the Brazilian retail industry through mapping and tracking, and providing cutting-edge business intelligence solutions.\n\n• As a key member of the founding team, my role extended beyond software engineering; I was instrumental in developing IoT devices for data capture, which formed the backbone of our service offerings.\n\n• Entrusted with critical responsibilities for shaping the company, I led initiatives in hiring talented professionals, crafting the brand identity, and establishing a vibrant company culture that fostered innovation and collaboration.\n\n• Within a year, our efforts culminated in securing a broad client base of prestigious Brazilian brands, offering them unparalleled services in geolocalized consumption analysis and predictive advertising impact, leveraging technologies such as C/C++, Java, JavaScript, Python, Shell Script, and a suite of AWS services (S3, CloudWatch, IAM, SNS, API Gateway, SES, EC2, Lambda), alongside Elasticsearch and Tableau for data analysis and visualization."
+      }
+    },
+    {
+      "company": "Red Pill VR",
+      "description": "Virtual Reality experiences",
+      "role": {
+        "name": "Technical Artist",
+        "period": "Nov 2015 – Jul 2016",
+        "location": "Los Angeles, CA. USA",
+        "keywords": ["Virtual Reality HMD" , "Audio Visualization", "Onset Detection", "PopcornFX particle system", "Direct 3D 11", "HLSL", "Compute Shaders"],
+        "activities": "• Joined Red Pill VR, a pioneering virtual reality experiences startup based in Los Angeles, marking my first foray into the VR industry towards the end of 2015.\n\n• Tasked with the innovative challenge of developing real-time VFX using the PopcornFX particle system tool within Unreal Engine 4, I focused on creating immersive visual effects that were seamlessly synchronized with the beats and rhythms analyzed by Nebula, Red Pill's inaugural musical analysis engine.\n\n• Leveraged cutting-edge technologies including virtual reality headsets, audio visualization techniques, and onset detection algorithms to enhance the immersive experience of VR content.\n\n• Applied advanced graphics programming skills in Direct3D 11 and HLSL, utilizing compute shaders to optimize the performance and visual fidelity of real-time VFX, contributing significantly to the company's reputation for delivering high-quality virtual reality experiences."
+      }
+    },
+    {
+      "company": "Ortiz Gaming",
+      "description": "Casino games solutions",
+      "role": {
+        "name": "Embedded Systems Software Engineer",
+        "period": "Nov 2014 – Aug 2015",
+        "location": "São Paulo, SP. BRA",
+        "keywords": ["C/C++", "Embedded Systems", "x86-64", "Image Processing", "DSP Filters", "TCP/IP stack", "Software Engineering"],
+        "activities": "• Transitioned back to Brazil and joined Ortiz Gaming, a leading provider of casino gaming solutions, leveraging my prior experience with Digisign and expertise in the Hispanic market. Ortiz Gaming is renowned for developing proprietary gaming machines that incorporate both third-party and in-house components, including innovative elements like electronic party poppers, and for creating engaging games for these platforms.\n\n• Led the initiative to standardize the audio frequency response across all gaming platforms, successfully implementing SIMD-optimized equalizers to enhance audio quality and consistency, thereby elevating the user gaming experience.\n\n• Addressed a critical company need by developing a unified hardware testing platform. This involved creating comprehensive unit tests for various components and designing a user-friendly GUI for manual testing of I/O components such as bill acceptors, printers, buttons, and speakers, significantly improving the efficiency and reliability of hardware testing processes.\n\n• Played a key role in Ortiz Gaming's strategic expansion into the American market, specifically targeting Las Vegas. My efforts were focused on ensuring compliance with stringent local gambling regulations. I achieved this by integrating the Gaming Authentication Terminal (GAT) protocol into our gaming machines, a crucial step that simulated gaming operations to adhere to the mandated return rates, thus paving the way for market entry.\n\n• My final significant contribution was the development of a versatile game template, which streamlined the process of creating game prototypes for the art team. This innovation not only accelerated the prototype development process but also facilitated greater creative freedom and experimentation, contributing to the company's dynamic game portfolio."
+      }
+    },
+    {
+      "company": "Digisign",
+      "description": "Digital Signage Solutions",
+      "role": {
+        "name": "Embedded Systems Software Engineer",
+        "period": "Aug 2012 – Jul 2013",
+        "location": "Mexico City, DF. MEX",
+        "keywords": ["C/C++", "OpenGL", "WebGL", "HTML5", "Javascript", "ActionScript", "NodeJS", "Mobile Development", "Inertial Navigation", "Pathfinding", "Graphics Engineering", "Game Engineering"],
+        "activities": "• Initiated my career at Digisign México, an innovative startup specializing in digital signage solutions, including the development of custom hardware, software, and content for shopping mall totems.\n\n• Played a pivotal role in the design and implementation of interactive promotional games and the development of drivers for proprietary touchscreen technology, enhancing user engagement and interactivity.\n\n• Spearheaded the development of a new totem platform tailored for malls, featuring an integrated map, efficient store routing, an item-based store search function, and a promotional item showcase, significantly improving the shopping experience.\n\n• Utilized a diverse technology stack including C/C++, OpenGL, WebGL, HTML5, JavaScript, ActionScript, and Node.js, demonstrating versatility in software development.\n\n• Contributed to mobile development and implemented advanced features such as inertial navigation and pathfinding, elevating the platform's utility and user navigation capabilities.\n\n• Applied expertise in graphics and game engineering to create compelling and user-friendly interfaces, driving increased interaction and customer satisfaction."
+      }
+    }
+  ],
+  "knowledges": [
+    { "name": "Languages", "info": ["C/C++", "Rust", "C#", "Objective-C", "Python", "Java", "ECMAScript", "x86-64 ASM", "MIPS ASM", "ARM ASM"] },
+    { "name": "Blockchain", "info": ["Solana", "Ethereum", "Cryptography", "High-Performance Trading"] },
+    { "name": "Robotics", "info": ["ROS", "Microsoft AirSim"] },
+    { "name": "Gamedev", "info": ["Unreal Engine 5", "Unity", "Bevy"] },
+    { "name": "OS Programming", "info": ["Windows", "Linux", "Android (Java, NDK, AOSP)", "OSX", "iOS"] },
+    { "name": "Graphics API", "info": ["Vulkan", "OpenGL", "OpenGL ES", "WebGL", "Direct3D"] },
+    { "name": "Computer Vision API", "info": ["OpenCV", "OpenNI", "Kinect SDK", "HF Transformers"] },
+    { "name": "Audio API", "info": ["OpenAL", "OpenSL ES", "ALSA", "DirectSound", "WebAudio"] },
+    { "name": "Computing API", "info": ["OpenCL", "WebCL", "Vulkan", "Compute Shaders"] },
+    { "name": "Protocols", "info": ["Ethernet", "IEEE 802.11", "IP", "TCP", "UDP", "WebSocket", "DHCP", "ISO 8583"] },
+    { "name": "Cloud", "info": ["AWS", "Azure", "Elasticsearch"] },
+    { "name": "Web", "info": ["HTML5", "CSS3", "ReactJS", "Vue.js", "Node.js", "Emscripten", "WebAssembly"] },
+    { "name": "VCS", "info": ["git", "git lfs", "Perforce"] }
+  ],
+  "languages": [
+    { "name": "Portuguese", "info": ["Native"] },
+    { "name": "English", "info": ["Advanced"] },
+    { "name": "Spanish", "info": ["Advanced"] }
+  ],
+  "links": [
+    { "name": "GitHub", "info": ["https://www.github.com/notdanilo"] },
+    { "name": "LinkedIn", "info": ["https://br.linkedin.com/in/danilo-guanabara"] }
+  ]
+}
