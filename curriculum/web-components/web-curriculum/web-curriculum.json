@@ -13,6 +13,28 @@
   },
   "experiences": [
     {
+      "company": "MagicBlock",
+      "description": "An infrastructure company for the Solana ecosystem",
+      "role": {
+        "name": "Senior Solana Engineer",
+        "period": "November 2024 - Present",
+        "location": "São Paulo - BRA.",
+        "keywords": ["Solana", "Rust", "Web3", "Blockchain", "Game Development"],
+        "activities": "• Main developer and maintainer of Bolt, an ECS-based game engine for building Fully-On-Chain games.\n\n• Developing a Doom-like game in the Bolt engine."
+      }
+    },
+    {
+      "company": "Jungle Studio",
+      "description": "The company behind the web3 mobile game For The Win",
+      "role": {
+        "name": "Senior Solana Engineer",
+        "period": "August 2024 - September 2024",
+        "location": "São Paulo - BRA.",
+        "keywords": ["Solana", "Rust", "Web3", "Blockchain"],
+        "activities": "• Developed a Solana-based Payment System for the web3 mobile game For The Win, enabling users to purchase in-game items and currency using SOL and USDC."
+      }
+    },
+    {
       "company": "Sensorial Systems",
       "description": "Building intelligent systems with real-world data",
       "role": {
@@ -157,18 +179,19 @@
     }
   ],
   "knowledges": [
-    { "name": "Languages", "info": ["C/C++", "Rust", "C#", "Objective-C", "Swift", "Python", "Perl", "Ruby", "Lisp", "Haskell", "Java", "Javascript", "ActionScript", "x86-64", "MIPS & ARM"] },
+    { "name": "Languages", "info": ["C/C++", "Rust", "C#", "Objective-C", "Python", "Java", "ECMAScript", "x86-64 ASM", "MIPS ASM", "ARM ASM"] },
+    { "name": "Blockchain", "info": ["Solana", "Ethereum", "Cryptography", "High-Performance Trading"] },
     { "name": "Robotics", "info": ["ROS", "Microsoft AirSim"] },
-    { "name": "Gamedev", "info": ["Unreal Engine 4", "Popcorn FX"] },
-    { "name": "OS Programming", "info": ["Windows", "Linux", "Android (Java", "NDK", "AOSP)", "OSX & iOS"] },
-    { "name": "Graphics API", "info": ["Vulkan", "OpenGL", "OpenGL ES", "WebGL & Direct3D"] },
-    { "name": "Computer Vision API", "info": ["OpenCV", "OpenNI & Kinect SDK", "HF Transformers"] },
-    { "name": "Audio API", "info": ["OpenAL", "OpenSL ES", "ALSA", "DirectSound & WebAudio"] },
-    { "name": "Computing API", "info": ["OpenCL", "WebCL", "Vulkan & Compute Shaders"] },
+    { "name": "Gamedev", "info": ["Unreal Engine 5", "Unity", "Bevy"] },
+    { "name": "OS Programming", "info": ["Windows", "Linux", "Android (Java, NDK, AOSP)", "OSX", "iOS"] },
+    { "name": "Graphics API", "info": ["Vulkan", "OpenGL", "OpenGL ES", "WebGL", "Direct3D"] },
+    { "name": "Computer Vision API", "info": ["OpenCV", "OpenNI", "Kinect SDK", "HF Transformers"] },
+    { "name": "Audio API", "info": ["OpenAL", "OpenSL ES", "ALSA", "DirectSound", "WebAudio"] },
+    { "name": "Computing API", "info": ["OpenCL", "WebCL", "Vulkan", "Compute Shaders"] },
     { "name": "Protocols", "info": ["Ethernet", "IEEE 802.11", "IP", "TCP", "UDP", "WebSocket", "DHCP", "ISO 8583"] },
-    { "name": "Cloud", "info": ["AWS IAM", "AWS SNS", "AWS SES", "AWS S3", "AWS EC2", "AWS API Gateway", "AWS Lambda", "AWS Cloudwatch", "Elasticsearch"] },
-    { "name": "Web", "info": ["HTML5", "CSS3", "AngularJS", "ReactJS", "Vue.js", "Node.js & Emscripten"] },
-    { "name": "Misc", "info": ["git", "git lfs", "Boost", "POCO & JUCE"] }
+    { "name": "Cloud", "info": ["AWS", "Azure", "Elasticsearch"] },
+    { "name": "Web", "info": ["HTML5", "CSS3", "ReactJS", "Vue.js", "Node.js", "Emscripten", "WebAssembly"] },
+    { "name": "VCS", "info": ["git", "git lfs", "Perforce"] }
   ],
   "languages": [
     { "name": "Portuguese", "info": ["Native"] },
@@ -177,6 +200,6 @@
   ],
   "links": [
     { "name": "GitHub", "info": ["https://www.github.com/notdanilo"] },
-    { "name": "LinkedIn", "info": ["https://br.linkedin.com/in/danilo-guanabara-44743a45"] }
+    { "name": "LinkedIn", "info": ["https://br.linkedin.com/in/danilo-guanabara"] }
   ]
 }

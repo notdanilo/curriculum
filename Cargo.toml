@@ -1,6 +1,5 @@
 [workspace]
 members = [
-    # "curriculum",
     "server"
 ]
 resolver = "2"
