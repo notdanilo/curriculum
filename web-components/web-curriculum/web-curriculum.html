@@ -29,30 +29,32 @@
           width: 100%;
         }
     </style>
-    <div class="curriculum">
-        <web-contact :json="JSON.stringify(contact)"></web-contact>
-        <web-infobar class="academic" :black="education.title" :white="education.institute"></web-infobar>
-        <web-section name="Professional Experiences">
-            <span slot="slot">
-                <web-experience :key="experience.company" v-for="experience in experiences" :json='JSON.stringify(experience)'></web-experience>
-            </span>
-        </web-section>
-        <web-section name="Knowledges">
-            <span slot="slot">
-                <web-knowledge :key="knowledge.name" v-for="knowledge in knowledges" :json="JSON.stringify(knowledge)"></web-knowledge>
-            </span>
-        </web-section>
-        <div class="bottom">
-            <web-section name="Languages">
-            <span slot="slot">
-                <web-knowledge :key="knowledge.name" v-for="knowledge in languages" :json="JSON.stringify(knowledge)"></web-knowledge>
-            </span>
-            </web-section>
-            <web-section name="Links">
-            <span slot="slot">
-                <web-knowledge :key="link.name" v-for="link in links" :json="JSON.stringify(link)"></web-knowledge>
-            </span>
-            </web-section>
-        </div>
-    </div>
+    <center>
+      <div class="curriculum">
+          <web-contact :json="JSON.stringify(contact)"></web-contact>
+          <web-infobar class="academic" :black="education.title" :white="education.institute"></web-infobar>
+          <web-section name="Professional Experiences">
+              <span slot="slot">
+                  <web-experience :key="experience.company" v-for="experience in experiences" :json='JSON.stringify(experience)'></web-experience>
+              </span>
+          </web-section>
+          <web-section name="Knowledges">
+              <span slot="slot">
+                  <web-knowledge :key="knowledge.name" v-for="knowledge in knowledges" :json="JSON.stringify(knowledge)"></web-knowledge>
+              </span>
+          </web-section>
+          <div class="bottom">
+              <web-section name="Languages">
+              <span slot="slot">
+                  <web-knowledge :key="knowledge.name" v-for="knowledge in languages" :json="JSON.stringify(knowledge)"></web-knowledge>
+              </span>
+              </web-section>
+              <web-section name="Links">
+              <span slot="slot">
+                  <web-knowledge :key="link.name" v-for="link in links" :json="JSON.stringify(link)"></web-knowledge>
+              </span>
+              </web-section>
+          </div>
+      </div>
+    </center>
 </template>
