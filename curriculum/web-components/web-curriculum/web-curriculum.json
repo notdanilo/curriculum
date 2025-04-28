@@ -20,7 +20,7 @@
         "period": "November 2024 - Present",
         "location": "São Paulo - BRA.",
         "keywords": ["Solana", "Rust", "Web3", "Blockchain", "Game Development"],
-        "activities": "• Main developer and maintainer of Bolt, an ECS-based game engine for building Fully-On-Chain games.\n\n• Developing a Doom-like game in the Bolt engine."
+        "activities": "• Main developer and maintainer of Bolt, an ECS-based game engine for building Fully-On-Chain games.\n\n• Started the development of a Fully-on-Chain Game Engine in Rust.\n\n• I am also responsible for the creation of a L2 protocol, which will soon be integrated in the company's Solana Ephemeral Validator, of the on-chain real-time scheduler for the Game Engine."
       }
     },
     {
