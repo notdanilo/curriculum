@@ -1,60 +1,75 @@
 <template>
-    <style scoped>
-        * {
-          font-family: 'Raleway' Arial;
-        }
+  <style scoped>
+    * {
+      font-family: 'Raleway' Arial;
+    }
 
-        .curriculum {
-          width: 720px;
-          padding: 40px;
-          background-color: white;
-          text-align: left;
-        }
+    .curriculum {
+      width: 720px;
+      padding: 40px;
+      background-color: white;
+      text-align: left;
+    }
 
-        @media screen {
-          .curriculum {
-            box-shadow: 1px 1px 2px 1px grey;
-            border-radius: 2px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-          }
-        }
+    @media screen {
+      .curriculum {
+        box-shadow: 1px 1px 2px 1px grey;
+        border-radius: 2px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
 
-        .bottom {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-        }
-        .bottom v-section {
-          width: 100%;
-        }
-    </style>
-    <center>
-      <div class="curriculum">
-          <web-contact :json="JSON.stringify(contact)"></web-contact>
-          <web-infobar class="academic" :black="education.title" :white="education.institute"></web-infobar>
-          <web-section name="Professional Experiences">
-              <span slot="slot">
-                  <web-experience :key="experience.company" v-for="experience in experiences" :json='JSON.stringify(experience)'></web-experience>
-              </span>
-          </web-section>
-          <web-section name="Knowledges">
-              <span slot="slot">
-                  <web-knowledge :key="knowledge.name" v-for="knowledge in knowledges" :json="JSON.stringify(knowledge)"></web-knowledge>
-              </span>
-          </web-section>
-          <div class="bottom">
-              <web-section name="Languages">
-              <span slot="slot">
-                  <web-knowledge :key="knowledge.name" v-for="knowledge in languages" :json="JSON.stringify(knowledge)"></web-knowledge>
-              </span>
-              </web-section>
-              <web-section name="Links">
-              <span slot="slot">
-                  <web-knowledge :key="link.name" v-for="link in links" :json="JSON.stringify(link)"></web-knowledge>
-              </span>
-              </web-section>
-          </div>
+    web-section {
+      display: block;
+    }
+
+    @media print {
+      .knowledges-container {
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+    }
+
+    .bottom {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .bottom web-section {
+      width: 100%;
+    }
+  </style>
+  <center>
+    <div class="curriculum">
+      <web-contact :json="JSON.stringify(contact)"></web-contact>
+      <web-infobar class="academic" :black="education.title" :white="education.institute"></web-infobar>
+      <web-section name="Professional Experiences">
+        <span slot="slot">
+          <web-experience :key="experience.company" v-for="experience in experiences"
+            :json='JSON.stringify(experience)'></web-experience>
+        </span>
+      </web-section>
+      <web-section name="Knowledges" class="knowledges-container">
+        <span slot="slot">
+          <web-knowledge :key="knowledge.name" v-for="knowledge in knowledges"
+            :json="JSON.stringify(knowledge)"></web-knowledge>
+        </span>
+      </web-section>
+      <div class="bottom">
+        <web-section name="Languages">
+          <span slot="slot">
+            <web-knowledge :key="knowledge.name" v-for="knowledge in languages"
+              :json="JSON.stringify(knowledge)"></web-knowledge>
+          </span>
+        </web-section>
+        <web-section name="Links">
+          <span slot="slot">
+            <web-knowledge :key="link.name" v-for="link in links" :json="JSON.stringify(link)"></web-knowledge>
+          </span>
+        </web-section>
       </div>
-    </center>
+    </div>
+  </center>
 </template>
