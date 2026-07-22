@@ -13,6 +13,26 @@
   },
   "experiences": [
     {
+      "company": "Adventure Simulator Group",
+      "description": "An interactive gaming platform and simulation studio",
+      "role": {
+        "name": "Senior Game Engineer",
+        "period": "December 2025 - Present",
+        "location": "Los Angeles - USA.",
+        "keywords": [
+          "Bevy",
+          "Rust",
+          "wgpu",
+          "High-Performance",
+          "Game Engine",
+          "Simulation",
+          "Payment System",
+          "Character Creator"
+        ],
+        "activities": "• Developed a highly modular and customizable character creator system using Signed Distance Fields, Cube Marching and automatic rigging, enabling dynamic player customization and modular mesh handling.\n\n• Designed and integrated a blockchain-based payment system, allowing secure and seamless in-game purchases and asset ownership verification."
+      }
+    },
+    {
       "company": "MagicBlock",
       "description": "An infrastructure company for the Solana ecosystem",
       "role": {
